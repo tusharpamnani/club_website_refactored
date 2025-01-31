@@ -53,7 +53,7 @@ const NavBar = () => {
             </Link>
           {[
             "About",
-            "Achievements",
+            "Achivements",
             "Events",
             "Resources",
             "Register",
