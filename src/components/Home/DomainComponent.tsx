@@ -3,35 +3,19 @@ import React from "react";
 const DomainComponent = () => {
   const data = [
     {
-      icon: "/Assets/ML.png",
-      title: "Machine Learning",
-      content:
-        "Machine learning is the study of computer algorithms that improve automatically through experience. It is seen as a subset of artificial intelligence.",
-    },
-    {
-      icon: "/Assets/WebDev.png",
+      icon: "/Assets/WEB.png",
       title: "Web Development",
       content:
         "Web development is the work involved in developing a Web site for the Internet or an intranet. Web development can range from developing a simple single static page of plain text to complex Web-based Internet applications, electronic businesses, and social network services.",
     },
+
     {
-      icon: "/Assets/AppDev.png",
-      title: "App Development",
-      content:
-        "Mobile app development is the act or process by which a mobile app is developed for mobile devices, such as personal digital assistants, enterprise digital assistants or mobile phones.",
-    },
-    {
-      icon: "/Assets/Competitive.png",
+      icon: "/Assets/CP.png",
       title: "Competitive Programming",
       content:
         "Competitive programming is a mind sport usually held over the Internet or a local network, involving participants trying to program according to provided specifications.",
     },
-    {
-      icon: "/Assets/Designing.png",
-      title: "Designing",
-      content:
-        "Designing is the creation of a plan or convention for the construction of an object, system or measurable human interaction.",
-    },
+
     {
       icon: "/Assets/Blockchain.png",
       title: "Blockchain",
@@ -60,10 +44,16 @@ interface DomainCardProps {
 
 const DomainCard = ({ icon, title, content }: DomainCardProps) => {
   return (
-    <div className="w-full">
-      <img src={icon} alt={title} className="w-20 h-20" />
-      <h2>{title}</h2>
-      <p>{content}</p>
+    <div className="w-full flex items-center justify-center px-4 my-10">
+      <div className="flex-1 h-full w-1/2 py-10 flex justify-center items-center">
+        <img src={icon} alt={title} className="h-full aspect-square drop-shadow-div" />
+      </div>
+      <div className="flex-1 w-1/3 flex flex-col">
+        <div className="w-3/4">
+          <h2>{title}</h2>
+          <p>{content}</p>
+        </div>
+      </div>
     </div>
   );
 };
