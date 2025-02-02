@@ -13,8 +13,6 @@ export interface SocialLinks {
   
   export interface TeamSection {
     title: string
-    discord?: string
-    tags: string[]
     bgColorStyle: {
       background: string
     }

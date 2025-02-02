@@ -3,39 +3,39 @@ import React from "react";
 const data = [
   {
     imgUrl: "/Assets/Mentorship.png",
-    title: "Our Aim",
+    title: "Mentorship",
     content:
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem mollitia facere aspernatur nam. Quisquam, quos. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem mollitia facere aspernatur nam. Quisquam, quos. Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+      "We have arranged diverse platforms for you to ping us with your doubts. Feel free to reach out to us on any of these platforms.",
   },
   {
     imgUrl: "/Assets/Networking.png",
-    title: "Our Aim",
+    title: "Networking",
     content:
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem mollitia facere aspernatur nam. Quisquam, quos. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem mollitia facere aspernatur nam. Quisquam, quos. Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+      "Get to know the family! We would love to interact with you.",
   },
   {
     imgUrl: "/Assets/Projects.png",
-    title: "Our Aim",
+    title: "Projects",
     content:
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem mollitia facere aspernatur nam. Quisquam, quos. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem mollitia facere aspernatur nam. Quisquam, quos. Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+      "Explore your interests by building projects. For more inspiration, look into some of the most interesting projects that we have already worked on.",
   },
   {
     imgUrl: "/Assets/Upskill.png",
-    title: "Our Aim",
+    title: "Upskill",
     content:
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem mollitia facere aspernatur nam. Quisquam, quos. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem mollitia facere aspernatur nam. Quisquam, quos. Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+      "Widen your horizons and work on anything that interests you! Continue to improve with the help of the community. We got your back!",
   },
   {
     imgUrl: "/Assets/Vision.png",
-    title: "Our Aim",
+    title: "Vision",
     content:
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem mollitia facere aspernatur nam. Quisquam, quos. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem mollitia facere aspernatur nam. Quisquam, quos. Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+      "Enabling any student, from any department, from any background, to learn and love programming, to an extent where they can step up to teach others.",
   },
   {
     imgUrl: "/Assets/Events.png",
-    title: "Our Aim",
+    title: "Events",
     content:
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem mollitia facere aspernatur nam. Quisquam, quos. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem mollitia facere aspernatur nam. Quisquam, quos. Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+      "Check out the events lined up for you and join what you like. We would love for you to engage with us!",
   },
 ];
 

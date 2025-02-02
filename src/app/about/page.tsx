@@ -9,8 +9,6 @@ import type { TeamMember } from "../../types/team"
 
 interface TeamSection {
   title: string;
-  discord?: string;
-  tags: string[];
   bgColorStyle: {
     background: string;
   };
@@ -39,19 +37,6 @@ function ScrollableSection({ section }: ScrollableSectionProps) {
           <h2 className="text-white text-2xl font-semibold whitespace-pre-line mb-2">
             {section.title}
           </h2>
-          {section.discord && (
-            <p className="text-gray-400 text-sm mb-3">{section.discord}</p>
-          )}
-          <div className="flex justify-center gap-2 flex-wrap">
-            {section.tags.map((tag) => (
-              <span
-                key={tag}
-                className="text-xs px-3 py-1 rounded-full bg-white/10 text-white"
-              >
-                {tag}
-              </span>
-            ))}
-          </div>
         </div>
         {section.members.length > 1 && (
           <button

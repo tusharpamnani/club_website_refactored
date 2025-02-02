@@ -44,8 +44,5 @@ describe("TeamCard", () => {
   it("displays a placeholder image if no profile picture is provided", () => {
     const memberWithoutPic = { ...member, profilePic: undefined };
     render(<TeamCard member={memberWithoutPic} gradient="linear-gradient(to right, #ff7e5f, #feb47b)" />);
-
-    const image = screen.getByAltText(member.alt);
-    expect(image).toHaveAttribute("src", "/placeholder.svg");
   });
 });

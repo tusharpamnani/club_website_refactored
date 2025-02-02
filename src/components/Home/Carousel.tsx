@@ -1,10 +1,9 @@
 "use client";
-// import Slider from "react-slick"
-import Slider from "react-slick";
-import Image from "next/image";
-import team_img from "/public/Assets/team.png";
-import "slick-carousel/slick/slick.css";
-import "slick-carousel/slick/slick-theme.css";
+
+import Slider from "react-slick"
+import Image from "next/image"
+import "slick-carousel/slick/slick.css"
+import "slick-carousel/slick/slick-theme.css"
 
 const Carousel = () => {
   const settings = {
@@ -31,7 +30,7 @@ const Carousel = () => {
                          xl:rounded-[1.8rem] lg:rounded-2xl
                          md:rounded-[1.2rem] sm:rounded-[1rem]
                          mx-auto"
-              src={team_img || "/placeholder.svg"}
+              src={"/Assets/team.png"}
               alt={`Slide ${index}`}
               width={1000}
               height={500}
