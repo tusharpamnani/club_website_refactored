@@ -43,15 +43,8 @@ const NavBar = () => {
 
       {!isMobile ? (
         <nav className="flex space-x-8 text-gray-300">
-            <Link
-              href={"/"}
-              className="hover:text-white transition duration-300 ease-in-out relative py-2 px-1
-                         hover:border-b-2 hover:border-[#027498] hover:shadow-[0_4px_10px_rgba(3,226,255,0.5)]
-                         hover:-translate-y-0.5"
-            >
-              Home
-            </Link>
-          {[
+           
+          {["Home",
             "About",
             "Achivements",
             "Events",
@@ -60,13 +53,14 @@ const NavBar = () => {
           ].map((item) => (
             <Link
               key={item}
-              href={`/${item.toLowerCase()}`}
-              className="hover:text-white transition duration-300 ease-in-out relative py-2 px-1
-                         hover:border-b-2 hover:border-[#027498] hover:shadow-[0_4px_10px_rgba(3,226,255,0.5)]
-                         hover:-translate-y-0.5"
-            >
-              {item}
-            </Link>
+              href={item==="Home"?`/`:`/${item.toLowerCase()}`}
+              className="bg-transparent hover:text-white transition duration-300 ease-in-out relative py-2 px-1
+                      hover:drop-shadow-[0px_0px_15px_rgba(3,226,255,1)]
+                      hover:-translate-y-0.5"
+                    >
+                    {item}
+              </Link>
+
           ))}
         </nav>
       ) : (
@@ -81,20 +75,12 @@ const NavBar = () => {
             <div className="fixed inset-0 z-50 flex flex-col items-center justify-around bg-black">
               <nav className="h-[90%] w-full flex items-center justify-center">
                 <ul className="h-full w-full flex flex-col justify-evenly items-center text-3xl pb-[10%]">
-                  <li>
-                    <Link
-                      href={"/"}
-                      className="text-[#027498] font-medium hover:text-white transition duration-300"
-                    //   onClick={toggleHam}
-                    >
-                      Home
-                    </Link>
-                  </li>
-                  {["About", "Achievements", "Events", "Resources"].map(
+                  
+                  {["Home","About", "Achievements", "Events", "Resources"].map(
                     (item) => (
                       <li key={item}>
                         <Link
-                          href={`/${item.toLowerCase()}`}
+                          href={item==="Home"?`/`:`/${item.toLowerCase()}`}
                           className="text-[#027498] font-medium hover:text-white transition duration-300"
                           onClick={toggleHam}
                         >
