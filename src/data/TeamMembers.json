@@ -1,222 +1,593 @@
 [
-    {
-      "title": "Faculty Incharge",
-      "bgColorStyle": {
-        "background": "linear-gradient(135deg, #004d40, #00796b, #009688, #26a69a, #4db6ac, #80cbc4, #b2dfdb)"
-      },
-      "members": [
-        {
-          "name": "Ashish Chandak",
-          "position": "Club Incharge",
-          "alt": "Ashish",
-          "profilePic": "/profiles/Faculty/Ashish.jpeg",
-          "socials": {
-            "linkedin": "https://www.linkedin.com/in/"
-          }
-        }
-      ]
+  {
+    "title": "Faculty Incharge",
+    "bgColorStyle": {
+      "background": "linear-gradient(135deg, #004d40, #00796b, #009688, #26a69a, #4db6ac, #80cbc4, #b2dfdb)"
     },
-    {
-      "title": "The Core Committee",
-      "bgColorStyle": {
-        "background": "linear-gradient(135deg, #004d40, #00796b, #009688, #26a69a, #4db6ac, #80cbc4, #b2dfdb)"
-      },
-      "members": [
-        {
-          "name": "Mushan Khan",
-          "position": "President",
-          "alt": "Mushan",
-          "profilePic": "/Core/mushan.jpg",
-          "socials": {
-            "linkedin": "https://www.linkedin.com/in/harsh-diwase-54a964226/",
-            "instagram": "https://instagram.com/harshdiwase?igshid=OGQ5ZDc2ODk2ZA=="
-          }
-        },
-        {
-          "name": "Netal Sarda",
-          "position": "Vice President",
-          "alt": "Netal ",
-          "profilePic": "/Core/netal.jpg",
-          "socials": {
-            "linkedin": "https://www.linkedin.com/in/muskan-jaiswal-80317122b/",
-            "instagram": "https://instagram.com/muskanjaiswal_03?igshid=NGVhN2U2NjQ0Yg=="
-          }
-        },
-        {
-          "name": "Suyog Parkhi",
-          "position": "Technical Lead",
-          "alt": "Suyog ",
-          "profilePic": "/Core/suyog.jpg",
-          "socials": {
-            "linkedin": "https://www.linkedin.com/in/naman-sarda-10a17622b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
-            "instagram": "https://instagram.com/naman_sarda07?igshid=OGQ5ZDc2ODk2ZA=="
-          }
-        },
-        {
-          "name": "Anas Khan",
-          "position": "Technical Co-Lead",
-          "alt": "Anas ",
-          "profilePic": "/Core/anas.png",
-          "socials": {
-            "linkedin": "https://www.linkedin.com/in/suyog-parkhi-b03980247/",
-            "instagram": "https://www.instagram.com/suyogparkhi/"
-          }
-        },
-        {
-          "name": "Tushar Pamnani",
-          "position": "Event Lead",
-          "alt": "Tejas",
-          "profilePic": "/Core/tushar.png",
-          "socials": {
-            "linkedin": "https://www.linkedin.com/in/netal-sarda-7b6810258",
-            "instagram": "https://instagram.com/netal_sarda11?igshid=MzRlODBiNWFlZA=="
-          }
-        },
-        {
-          "name": "Tejas Tatode",
-          "position": "Event Co-Lead",
-          "alt": "Tejas",
-          "profilePic": "/Core/tejas.jpg",
-          "socials": {
-            "linkedin": "https://www.linkedin.com/in/netal-sarda-7b6810258",
-            "instagram": "https://instagram.com/netal_sarda11?igshid=MzRlODBiNWFlZA=="
-          }
-        },
-        {
-          "name": "Lavanya Chawla",
-          "position": "Content Lead ",
-          "alt": "Lavanya",
-          "profilePic": "/Core/lavanya.jpg",
-          "socials": {
-            "linkedin": "https://www.linkedin.com/in/mushan-khan-65140b261?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
-            "instagram": "https://instagram.com/mushan_khan_22?igshid=MzMyNGUyNmU2YQ=="
-          }
-        },
-        {
-          "name": "Aakarsh Verma",
-          "position": "Content Co-Lead ",
-          "alt": "Aakarsh",
-          "profilePic": "/Core/aakarsh.jpg",
-          "socials": {
-            "linkedin": "https://www.linkedin.com/in/manas-bhardwaj-621141298/",
-            "instagram": "https://www.instagram.com/manasbhardwaj18/"
-          }
-        },
-        {
-          "name": "Kshirin Modi",
-          "position": "Marketing Co-Lead",
-          "alt": "Kshirin",
-          "profilePic": "/Core/kshirin.jpg",
-          "socials": {
-            "linkedin": "https://www.linkedin.com/in/tushar-pamnani",
-            "instagram": "https://www.instagram.com/tusharpamnani.me/"
-          }
-        },
-        {
-          "name": "Rohan Keshkar",
-          "position": "Graphics Lead",
-          "alt": "Rohan",
-          "profilePic": "/Core/rohan.png",
-          "socials": {
-            "linkedin": "https://www.linkedin.com/in/nupur-hada-a5517222b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
-            "instagram": "https://instagram.com/nupur_hada.25?igshid=OGQ5ZDc2ODk2ZA=="
-          }
-        },
-        {
-          "name": "Sakshi Mude",
-          "position": "Graphics Co-Lead",
-          "alt": "Sakshi",
-          "profilePic": "/Core/sakshi.jpg",
-          "socials": {
-            "linkedin": "https://www.linkedin.com/in/srishti-mangalam-08074b247?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
-            "instagram": "https://instagram.com/miss_mistless?igshid=OGQ5ZDc2ODk2ZA=="
-          }
-        },
-        {
-          "name": "Devansh Dua",
-          "position": "Social Media Lead",
-          "alt": "Dev",
-          "profilePic": "/Core/dev.jpg",
-          "socials": {
-            "linkedin": "https://www.linkedin.com/in/vidhi-rathi-222557223?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
-            "instagram": "https://instagram.com/vidhirathi31?igshid=NGVhN2U2NjQ0Yg=="
-          }
-        },
-        {
-          "name": "Adnan Dalal",
-          "position": "Social Media Co-Lead",
-          "alt": "Adnan",
-          "profilePic": "/Core/adnan.jpg",
-          "socials": {
-            "linkedin": "https://www.linkedin.com/in/samiksha-agrawal-46a637275/",
-            "instagram": "https://www.instagram.com/bansal_samiksha24/"
-          }
+    "members": [
+      {
+        "name": "Ashish Chandak",
+        "position": "Club Incharge",
+        "alt": "Ashish",
+        "profilePic": "/profiles/Faculty/Ashish.jpeg",
+        "socials": {
+          "linkedin": "https://www.linkedin.com/in/"
         }
-      ]
+      }
+    ]
+  },
+  {
+    "title": "The core Committee",
+    "bgColorStyle": {
+      "background": "linear-gradient(135deg, #004d40, #00796b, #009688, #26a69a, #4db6ac, #80cbc4, #b2dfdb)"
     },
-    {
-      "title": "Executive Heads",
-      "bgColorStyle": {
-        "background": "linear-gradient(135deg, #004d40, #00796b, #009688, #26a69a, #4db6ac, #80cbc4, #b2dfdb)"
-      },
-      "members": [
-        {
-          "name": "Aditya Pande",
-          "position": "Member",
-          "alt": "Siddhi",
-          "profilePic": "/profiles/Dev/aditya.jpg",
-          "socials": {
-            "linkedin": "https://www.linkedin.com/in/siddhi-kothekar-212906290",
-            "instagram": "https://instagram.com/siddhi_kothekar?igshid=MzMyNGUyNmU2YQ=="
-          }
-        },
-        {
-          "name": "Ikshit Talera",
-          "position": "Member",
-          "alt": "Ikshit",
-          "profilePic": "/profiles/CP/Ikshit.jpg",
-          "socials": {
-            "linkedin": "https://www.linkedin.com/in/ikshit-talera-ab137725a/",
-            "instagram": "https://www.instagram.com/ikshit_04/?next=%2F"
-          }
-        },
-        {
-          "name": "Hariom Nabira",
-          "position": "Member",
-          "alt": "Hariom",
-          "profilePic": "/profiles/CP/Hariom.jpg",
-          "socials": {
-            "linkedin": "https://www.linkedin.com/in/ikshit-talera-ab137725a/",
-            "instagram": "https://www.instagram.com/ikshit_04/?next=%2F"
-          }
+    "members": [
+      {
+        "name": "Mushan Khan",
+        "position": "President",
+        "alt": "Mushan",
+        "profilePic": "/core/mushan.jpg",
+        "socials": {
+          "linkedin": "https://www.linkedin.com/in/harsh-diwase-54a964226/",
+          "instagram": "https://instagram.com/harshdiwase?igshid=OGQ5ZDc2ODk2ZA=="
         }
-      ]
-    },
-    {
-      "title": "Executive Members",
-      "bgColorStyle": {
-        "background": "linear-gradient(135deg, #004d40, #00796b, #009688, #26a69a, #4db6ac, #80cbc4, #b2dfdb)"
       },
-      "members": [
-        {
-          "name": "Tejas Singh",
-          "position": "Member",
-          "alt": "Tejas",
-          "profilePic": "/profiles/Dev/tejas.jpg",
-          "socials": {
-            "linkedin": "https://www.linkedin.com/in/siddhi-kothekar-212906290",
-            "instagram": "https://instagram.com/siddhi_kothekar?igshid=MzMyNGUyNmU2YQ=="
-          }
+      {
+        "name": "Netal Sarda",
+        "position": "Vice President",
+        "alt": "Netal ",
+        "profilePic": "/core/netal.jpg",
+        "socials": {
+          "instagram": "https://www.instagram.com/netal_sarda11/profilecard/?igsh=MW02b2U1cHBma3Q2MQ==",
+          "linkedin": "https://www.linkedin.com/in/netal-sarda11/"
         }
-      ]
-    },
-    {
-      "title": "Committee Members",
-      "bgColorStyle": {
-        "background": "linear-gradient(135deg, #004d40, #00796b, #009688, #26a69a, #4db6ac, #80cbc4, #b2dfdb)"
       },
-      "members": [
-        
-      ]
-    }
-  ]
+      {
+        "name": "Suyog Parkhi",
+        "position": "Technical Lead",
+        "alt": "Suyog ",
+        "profilePic": "/core/suyog.JPG",
+        "socials": {
+          "linkedin": "https://www.linkedin.com/in/naman-sarda-10a17622b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+          "instagram": "https://instagram.com/naman_sarda07?igshid=OGQ5ZDc2ODk2ZA=="
+        }
+      },
+      {
+        "name": "Anas Khan",
+        "position": "Technical Co-Lead",
+        "alt": "Anas ",
+        "profilePic": "/core/anas.jpg",
+        "socials": {
+          "linkedin": "https://www.linkedin.com/in/suyog-parkhi-b03980247/",
+          "instagram": "https://www.instagram.com/suyogparkhi/"
+        }
+      },
+      {
+        "name": "Tushar Pamnani",
+        "position": "Event Lead",
+        "alt": "Tejas",
+        "profilePic": "/core/tushar.jpg",
+        "socials": {
+          "linkedin": "https://www.linkedin.com/in/netal-sarda-7b6810258",
+          "instagram": "https://instagram.com/netal_sarda11?igshid=MzRlODBiNWFlZA=="
+        }
+      },
+      {
+        "name": "Tejas Tatode",
+        "position": "Event Co-Lead",
+        "alt": "Tejas",
+        "profilePic": "/core/tejas.jpg",
+        "socials": {
+          "linkedin": "https://www.linkedin.com/in/netal-sarda-7b6810258",
+          "instagram": "https://instagram.com/netal_sarda11?igshid=MzRlODBiNWFlZA=="
+        }
+      },
+      {
+        "name": "Lavanya Chawla",
+        "position": "Content Lead ",
+        "alt": "Lavanya",
+        "profilePic": "/core/lavanya.jpg",
+        "socials": {
+          "linkedin": "https://www.linkedin.com/in/mushan-khan-65140b261?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+          "instagram": "https://instagram.com/mushan_khan_22?igshid=MzMyNGUyNmU2YQ=="
+        }
+      },
+      {
+        "name": "Aakarsh Verma",
+        "position": "Content Co-Lead ",
+        "alt": "Aakarsh",
+        "profilePic": "/core/aakarsh.jpg",
+        "socials": {
+          "instagram": "https://www.instagram.com/av_aakarsh?igsh=MWloOWY3MjNtMGMyZQ==",
+          "linkedin": "https://www.linkedin.com/in/aakarsh-verma-169088248?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+        }
+      },
+      {
+        "name": "Kshirin Modi",
+        "position": "Marketing Co-Lead",
+        "alt": "Kshirin",
+        "profilePic": "/core/kshirin.jpeg",
+        "socials": {
+          "linkedin": "https://www.linkedin.com/in/kshirin-modi-747ab4269",
+          "instagram": "https://www.instagram.com/kshirin_007"
+        }
+      },
+      {
+        "name": "Rohan Keshkar",
+        "position": "Graphics Lead",
+        "alt": "Rohan",
+        "profilePic": "/core/rohan.jpg",
+        "socials": {
+          "linkedin": "https://www.linkedin.com/in/nupur-hada-a5517222b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+          "instagram": "https://instagram.com/nupur_hada.25?igshid=OGQ5ZDc2ODk2ZA=="
+        }
+      },
+      {
+        "name": "Sakshi Mude",
+        "position": "Graphics Co-Lead",
+        "alt": "Sakshi",
+        "profilePic": "/core/sakshi.jpeg",
+        "socials": {
+          "instagram": "https://www.instagram.com/sakshii_mude?igsh=MTV3MXlrb242MWlhYQ==",
+          "linkedin": "https://www.linkedin.com/in/sakshi-mude-43132a268?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"
+        }
+      },
+      {
+        "name": "Devansh Dua",
+        "position": "Social Media Lead",
+        "alt": "Dev",
+        "profilePic": "/core/dev.jpg",
+        "socials": {
+          "instagram": "https://www.instagram.com/_dev_dua/profilecard/?igsh=enpxeHljaXExZTcy",
+          "linkedin": "https://www.linkedin.com/in/devansh-dua-a0107a2a3?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+        }
+      },
+      {
+        "name": "Adnan Dalal",
+        "position": "Social Media Co-Lead",
+        "alt": "Adnan",
+        "profilePic": "/core/adnan.jpg",
+        "socials": {
+          "linkedin": "https://www.linkedin.com/in/samiksha-agrawal-46a637275/",
+          "instagram": "https://www.instagram.com/bansal_samiksha24/"
+        }
+      }
+    ]
+  },
+  {
+    "title": "Executive Heads",
+    "bgColorStyle": {
+      "background": "linear-gradient(135deg, #004d40, #00796b, #009688, #26a69a, #4db6ac, #80cbc4, #b2dfdb)"
+    },
+    "members": [
+      {
+        "name": "Ikshit Talera",
+        "position": "Head",
+        "alt": "Ikshit",
+        "profilePic": "/executive_heads/ikshit.jpg",
+        "socials": {
+          "linkedin": "https://www.linkedin.com/in/ikshit-talera-ab137725a/",
+          "instagram": "https://www.instagram.com/ikshit_04/?next=%2F"
+        }
+      },
+      {
+        "name": "Aditya Pande",
+        "position": "Head",
+        "alt": "Siddhi",
+        "profilePic": "/executive_heads/aditya.jpeg",
+        "socials": {
+          "instagram": "https://www.instagram.com/adityapande._/",
+          "linkedin": "https://www.linkedin.com/in/aditya-pande-716862213/"
+        }
+      },
+      {
+        "name": "Hariom Nabira",
+        "position": "Head",
+        "alt": "Hariom",
+        "profilePic": "/executive_heads/hariom.jpeg",
+        "socials": {
+          "instagram": "https://www.instagram.com/hariom_n25/profilecard/?igsh=Z2R1NjZwdm95OG1v",
+          "linkedin": "https://www.linkedin.com/in/hariom-nabira-8a9b1a276/"
+        }
+      },
+      {
+        "name": "Jessica Sejwani",
+        "position": "Head",
+        "alt": "Jessica",
+        "profilePic": "/executive_heads/jessica.jpg",
+        "socials": {}
+      },
+      {
+        "name": "Varada Kulkarni",
+        "position": "Head",
+        "alt": "Varda",
+        "profilePic": "/executive_heads/varada.jpg",
+        "socials": {}
+      }
+    ]
+  },
+  {
+    "title": "Executive Members",
+    "bgColorStyle": {
+      "background": "linear-gradient(135deg, #004d40, #00796b, #009688, #26a69a, #4db6ac, #80cbc4, #b2dfdb)"
+    },
+    "members": [
+      {
+        "name": "Tejas Singh",
+        "position": "Member",
+        "alt": "Tejas",
+        "profilePic": "/executive/tejas.jpeg",
+        "socials": {
+          "instagram": "https://www.instagram.com/tejassingh022/",
+          "linkedin": "www.linkedin.com/in/tejas-singh-6114052a4"
+        }
+      },
+      {
+        "name": "Khushi Goenka",
+        "position": "Executive Member",
+        "alt": "Khushi",
+        "profilePic": "/executive/khushi.jpg",
+        "socials": {
+          "instagram": "https://www.instagram.com/khushi_goenka0105/profilecard/?igsh=MXkxd3NoYWMxd2IzNA==",
+          "linkedin": "https://www.linkedin.com/in/khushi-goenka-4b6816282?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+        }
+      },
+      {
+        "name": "Preshtha Ramchandani",
+        "position": "Executive Member",
+        "alt": "Preshtha",
+        "profilePic": "/executive/preshtha.jpg",
+        "socials": {
+          "instagram": "https://www.instagram.com/preshtha_ramchandani_/profilecard/?igsh=d3ExbHlibnUydjli",
+          "linkedin": "https://www.linkedin.com/in/preshtha-ramchandani-6513312a2?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+        }
+      },
+      {
+        "name": "Moli Agrawal",
+        "position": "Executive Member",
+        "alt": "Moli",
+        "profilePic": "/executive/moli.jpg",
+        "socials": {
+          "instagram": "https://www.instagram.com/moli_agrawal/",
+          "linkedin": "https://www.linkedin.com/in/moli-a-b99a2121b/"
+        }
+      },
+      {
+        "name": "Harshit Sahu",
+        "position": "Executive Member",
+        "alt": "Harshit",
+        "profilePic": "/executive/harshit.jpg",
+        "socials": {
+          "instagram": "https://www.instagram.com/harry_zuper",
+          "linkedin": "https://www.linkedin.com/in/harshit-sahu-5250b3295/"
+        }
+      },
+      {
+        "name": "Armaan Ahmed",
+        "position": "Executive Member",
+        "alt": "Armaan",
+        "profilePic": "/executive/armaan.jpeg",
+        "socials": {
+          "instagram": "https://www.instagram.com/armaanahmed.15/profilecard/?igsh=MXVwYnUyczF4bjI1eQ==",
+          "linkedin": "https://www.linkedin.com/in/armaan-ahmed-6a9793291?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"
+        }
+      },
+      {
+        "name": "Om chillure",
+        "position": "Executive Member",
+        "alt": "Armaan",
+        "profilePic": "/executive/om.jpg",
+        "socials": {
+          "instagram": "https://www.instagram.com/om__chillure",
+          "linkedin": "https://www.linkedin.com/in/omchillure"
+        }
+      },
+      {
+        "name": "Mohd. Shayan Qureshi",
+        "position": "Executive Member",
+        "alt": "Armaan",
+        "profilePic": "/executive/shayan.jpg",
+        "socials": {
+          "linkedin": "https://www.linkedin.com/in/mohdshayan"
+        }
+      },
+      {
+        "name": "Aditya Yadav",
+        "position": "Executive Member",
+        "alt": "Armaan",
+        "profilePic": "/executive/aditya.jpg",
+        "socials": {
+          "instagram": "https://www.instagram.com/a_d_i_2005y/profilecard/?igsh=MW15anpubXN6YjUwag==",
+          "linkedin": "https://www.linkedin.com/in/aditya-yadav-9461112aa?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+        }
+      },
+      {
+        "name": "Radha Kamalwar",
+        "position": "Executive Member",
+        "alt": "Armaan",
+        "profilePic": "/executive/radha.jpeg",
+        "socials": {
+          "instagram": "https://www.instagram.com/radha110704?igsh=bGNoNzB3bGFzaDBw",
+          "linkedin": "https://www.linkedin.com/in/radha-ravindra-kamalwar-284b2a2aa?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"
+        }
+      },
+      {
+        "name": "Mushrat khan",
+        "position": "Executive Member",
+        "alt": "Armaan",
+        "profilePic": "/executive/musrat.jpg",
+        "socials": {
+          "linkedin": "https://www.linkedin.com/in/",
+          "instagram": "https://www.instagram.com/"
+        }
+      },
+      {
+        "name": "Nikunj Agarwal",
+        "position": "Executive Member",
+        "alt": "Armaan",
+        "profilePic": "/executive/nikunj.jpg",
+        "socials": {
+          "instagram": "https://www.instagram.com/nikunjagarwal_18/profilecard/?igsh=bWFxbG0wMDA5aHpt",
+          "linkedin": "https://www.linkedin.com/in/nik-agrawal"
+        }
+      },
+      {
+        "name": "Palak Khanduri",
+        "position": "Executive Member",
+        "alt": "Armaan",
+        "profilePic": "/executive/palak.jpg",
+        "socials": {
+          "instagram": "https://www.instagram.com/palak.khanduri"
+        }
+      },
+      {
+        "name": "Rajat Parihar",
+        "position": "Executive Member",
+        "alt": "Armaan",
+        "profilePic": "/executive/rajat.jpeg",
+        "socials": {
+          "linkedin": "https://www.linkedin.com/in/rajat-parihar-681097306",
+          "instagram": "https://www.instagram.com/rajat_parihar_26/"
+        }
+      },
+      {
+        "name": "Pranit Rathkanthiwar",
+        "position": "Executive Member",
+        "alt": "Armaan",
+        "profilePic": "/executive/pranit.png",
+        "socials": {
+          "instagram": "https://www.instagram.com/itsmepranit05/profilecard/?igsh=b3VqZ2U1MjgyZW52",
+          "linkedin": "https://www.linkedin.com/in/pranit-rathkanthiwar-93a65a32b/"
+        }
+      }
+    ]
+  },
+  {
+    "title": "Committee Members",
+    "bgColorStyle": {
+      "background": "linear-gradient(135deg, #004d40, #00796b, #009688, #26a69a, #4db6ac, #80cbc4, #b2dfdb)"
+    },
+    "members": [
+      {
+        "name": "SINGANA AKHILESWARA BALAJI",
+        "position": "Community Member",
+        "alt": "Singana",
+        "profilePic": "/committee/balaji.jpeg",
+        "socials": {
+          "instagram": "https://www.instagram.com/framesxsab/profilecard/?igsh=MWNxa2cyZ3FpMmY0Ng==",
+          "linkedin": "https://www.linkedin.com/in/singana-akhileswara-balaji-a605a4316?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+        }
+      },
+      {
+        "name": "Riddhi Bante",
+        "position": "Community Member",
+        "alt": "Riddhi",
+        "profilePic": "/committee/raddhi.jpg",
+        "socials": {
+          "instagram": "https://www.instagram.com/riddhii_0510/",
+          "linkedin": "https://www.linkedin.com/in/riddhi-bante-52b519320/"
+        }
+      },
+      {
+        "name": "Divya Tiwari",
+        "position": "Community Member",
+        "alt": "Divya",
+        "profilePic": "/committee/divya.png",
+        "socials": {
+          "instagram": "https://www.instagram.com/whysodivya/profilecard/?igsh=MTV1bjA1b2VxZ2tscQ==",
+          "linkedin": "https://www.linkedin.com/in/divya-tiwari-81543b321?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+        }
+      },
+      {
+        "name": "Vaishnavi Nandurkar",
+        "position": "Community Member",
+        "alt": "Vaishnavi",
+        "profilePic": "/committee/vaishnavi.jpg",
+        "socials": {
+          "instagram": "https://www.instagram.com/is.that.vinnie/profilecard/?igsh=MWhpNnp2emVzMmFnMA==",
+          "linkedin": "https://www.linkedin.com/in/vaishnavi-nandurkar-557667324?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+        }
+      },
+      {
+        "name": "Sarvesh Bhanarkar",
+        "position": "Community Member",
+        "alt": "Sarvesh",
+        "profilePic": "/committee/sarvesh.jpeg",
+        "socials": {
+          "instagram": "https://www.instagram.com/sarvesh_bhanarkar?igsh=MXA5ZHM4d3lnMDBhaA==",
+          "linkedin": "https://www.linkedin.com/in/sarvesh-bhanarkar-702940271?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"
+        }
+      },
+      {
+        "name": "Khili Sharma",
+        "position": "Community Member",
+        "alt": "Khili",
+        "profilePic": "/committee/khili.jpeg",
+        "socials": {
+          "instagram": "https://www.instagram.com/khililii_2602/?utm_source=ig_web_button_share_sheet",
+          "linkedin": "www.linkedin.com/in/khili-sharma-8b7a15337"
+        }
+      },
+      {
+        "name": "Vivian Demello",
+        "position": "Community Member",
+        "alt": "Vivian",
+        "profilePic": "/committee/vivian.png",
+        "socials": {
+          "instagram": "https://www.instagram.com/vivian_d007/",
+          "linkedin": "https://www.linkedin.com/in/viviandemello/"
+        }
+      },
+      {
+        "name": "Ruchita Bhende",
+        "position": "Community Member",
+        "alt": "Ruchita",
+        "profilePic": "/committee/ruchita.jpg",
+        "socials": {
+          "instagram": "https://www.instagram.com/rucheesyy?igsh=MWM0cGUyMHl5OTdtMw==",
+          "linkedin": "https://www.linkedin.com/in/ruchita-bhende-2797002b9?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+        }
+      },
+      {
+        "name": "Anurag Sharma",
+        "position": "Community Member",
+        "alt": "Anurag",
+        "profilePic": "/committee/anurag.jpg",
+        "socials": {
+          "instagram": "https://www.instagram.com/anurag189s?igsh=OGQ5ZDc2ODk2ZA==",
+          "linkedin": "https://www.linkedin.com/in/anurag-sharma-37997930a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+        }
+      },
+      {
+        "name": "Amber Shukla",
+        "position": "Community Member",
+        "alt": "Amber",
+        "profilePic": "/committee/amber.jpg",
+        "socials": {
+          "instagram": "https://www.instagram.com/shukl_amber?igsh=MTAxYmlidHNpNnJ0Nw==",
+          "linkedin": "https://www.linkedin.com/in/amber-shukla-3a8ba6240?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+        }
+      },
+      {
+        "name": "Saee Joshi",
+        "position": "Community Member",
+        "alt": "Saee",
+        "profilePic": "/committee/saee.jpg",
+        "socials": {
+          "instagram": "https://www.instagram.com/saee_2912_/profilecard/?igsh=MTc2dW10M2Z6ejVuNA==",
+          "linkedin": "https://www.linkedin.com/in/saee-joshi-79914531a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+        }
+      },
+      {
+        "name": "Dimple Sahoo",
+        "position": "Community Member",
+        "alt": "Dimple",
+        "profilePic": "/committee/dimple.jpeg",
+        "socials": {
+          "instagram": "https://www.instagram.com/ddddimple__?igsh=bjdqdWF2a2gweHhw",
+          "linkedin": "https://www.linkedin.com/in/dimple-sahoo-7aaba02b0?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+        }
+      },
+      {
+        "name": "Neer Awasthi",
+        "position": "Community Member",
+        "alt": "Neer",
+        "profilePic": "/committee/neer.jpg",
+        "socials": {
+          "instagram": "https://www.instagram.com/neerawasthi04?igsh=MXJqbnJlM2x6bWwyMQ==",
+          "linkedin": "https://www.linkedin.com/in/neer-awasthi-3b0930332?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+        }
+      },
+      {
+        "name": "Aadityasingh Hajari",
+        "position": "Community Member",
+        "alt": "Aadityasingh",
+        "profilePic": "/committee/aditya.jpg",
+        "socials": {
+          "instagram": "https://www.instagram.com/aaditya.hajari",
+          "linkedin": "https://www.linkedin.com/in/aditya-hajari"
+        }
+      },
+      {
+        "name": "Himanshu Ramrao Wandhare",
+        "position": "Community Member",
+        "alt": "Himanshu",
+        "profilePic": "/committee/himanshu.jpg",
+        "socials": {
+          "instagram": "https://www.instagram.com/himanshu_wandhare/",
+          "linkedin": "www.linkedin.com/in/himanshu-wandhare-253107216"
+        }
+      },
+      {
+        "name": "Vyakhya Goyal",
+        "position": "Community Member",
+        "alt": "Vyakhya",
+        "profilePic": "/committee/vyakhya.jpeg",
+        "socials": {
+          "instagram": "https://www.instagram.com/vyakhyaagoyal/profilecard/?igsh=bTM1MmJvY25uNWZq",
+          "linkedin": "https://www.linkedin.com/in/vyakhya-goyal-a03599324?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"
+        }
+      },
+      {
+        "name": "Diyansh Wasnik",
+        "position": "Community Member",
+        "alt": "Diyansh",
+        "profilePic": "/committee/diyansh.jpeg",
+        "socials": {
+          "instagram": "https://www.instagram.com/diyaansh_/profilecard/?igsh=MWQyZmhmOTU2bXl3dA==",
+          "linkedin": "https://www.linkedin.com/in/diyansh-wasnik-349484221?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+        }
+      },
+      {
+        "name": "Soumya Agrawal",
+        "position": "Community Member",
+        "alt": "Soumya",
+        "profilePic": "/committee/soumya.jpg",
+        "socials": {
+          "instagram": "https://www.instagram.com/soumyyaagrawal/profilecard/?igsh=MTBqdGhmbzZoaGo4YQ==",
+          "linkedin": "https://www.linkedin.com/in/soumya-agrawal-298b45253?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+        }
+      },
+      {
+        "name": "Shraddha Agrawal",
+        "position": "Community Member",
+        "alt": "Shraddha",
+        "profilePic": "/committee/shraddha.jpg",
+        "socials": {
+          "instagram": "shraddhaagrawal367",
+          "linkedin": "https://www.linkedin.com/in/shraddha-agrawal-a1a502338?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+        }
+      },
+      {
+        "name": "Shadan",
+        "position": "Community Member",
+        "alt": "Shadan",
+        "profilePic": "/committee/shadan.jpg",
+        "socials": {
+          "linkedin": "https://www.linkedin.com/in/shadan-sheikh-38690332b",
+          "instagram": "https://www.instagram.com/rejected_chad1?igsh=emFuYXN5eGJyM2tx"
+        }
+      },
+      {
+        "name": "Pranav Kolhe",
+        "position": "Community Member",
+        "alt": "Pranav",
+        "profilePic": "/committee/pranav.jpg",
+        "socials": {
+          "linkedin": "https://www.linkedin.com/in/pranav-kolhe-029a70241",
+          "instagram": "https://www.instagram.com/p.m.kolhe"
+        }
+      },
+      {
+        "name": "Shubham Agarwal",
+        "position": "Community Member",
+        "alt": "Shubham",
+        "profilePic": "/committee/shubham.jpg",
+        "socials": {
+          "linkedin": "https://www.linkedin.com/in/shubham-agarwal-b7b353307/",
+          "instagram": "https://www.instagram.com/agar_shub/"
+        }
+      }
+    ]
+  }
+]
