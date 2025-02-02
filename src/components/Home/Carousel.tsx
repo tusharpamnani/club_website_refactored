@@ -1,23 +1,24 @@
-"use client"
+"use client";
 // import Slider from "react-slick"
-import Slider from "react-slick"
-import Image from "next/image"
-import team_img from "/public/Assets/team.png"
-import "slick-carousel/slick/slick.css"
-import "slick-carousel/slick/slick-theme.css"
+import Slider from "react-slick";
+import Image from "next/image";
+import team_img from "/public/Assets/team.png";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
 
 const Carousel = () => {
   const settings = {
-    dots: true,
+    // dots: true,
     infinite: true,
     speed: 500,
     slidesToShow: 1,
     slidesToScroll: 1,
-  }
+  };
 
   return (
     <div
       className="w-[90vw] mx-auto rounded-3xl
+       my-10
                     xl:rounded-[1.8rem] lg:w-[95vw] lg:rounded-2xl
                     md:w-[90vw] md:rounded-[1.2rem]
                     sm:rounded-[1rem] xs:rounded-[0.8rem]"
@@ -40,8 +41,7 @@ const Carousel = () => {
         ))}
       </Slider>
     </div>
-  )
-}
+  );
+};
 
-export default Carousel
-
+export default Carousel;
