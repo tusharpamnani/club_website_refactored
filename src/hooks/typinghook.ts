@@ -1,24 +1,25 @@
-import { useState, useEffect } from "react"
+import { useState, useEffect } from "react";
 
 export default function useTypingEffect(text: string, speed: number, startTyping: boolean) {
-  const [displayedText, setDisplayedText] = useState("")
+  const [displayedText, setDisplayedText] = useState("");
 
   useEffect(() => {
-    if (!startTyping) return
+    if (!startTyping) return;
 
-    let i = 0
+    setDisplayedText("");
+
+    let i = 0;
     const typingInterval = setInterval(() => {
-      if (i < text.length) {
-        setDisplayedText((prev) => prev + text.charAt(i))
-        i++
-      } else {
-        clearInterval(typingInterval)
+      setDisplayedText(text.slice(0, i + 1)); 
+      i++;
+
+      if (i >= text.length) {
+        clearInterval(typingInterval);
       }
-    }, speed)
+    }, speed);
 
-    return () => clearInterval(typingInterval)
-  }, [text, speed, startTyping])
+    return () => clearInterval(typingInterval);
+  }, [text, speed, startTyping]); 
 
-  return displayedText
+  return displayedText;
 }
-
