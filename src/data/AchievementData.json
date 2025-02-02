@@ -1,69 +1,24 @@
 {
     "achievers": [
       {
-        "name": "Pratham Rajbhoj",
-        "image": "/profiles/Core/Pratham.jpg",
-        "achievements": ["Bagged a package of 16 LPA from Kickdrum"]
-      },
-      {
         "name": "Nupur Hada",
-        "image": "/Assets/nupurA.png",
+        "image": "/placements/nupurA.png",
         "achievements": ["Bagged A package of 12 LPA from Aspect Ratio"]
       },
       {
         "name": "Harsh Diwase",
         "image": "/profiles/Core/Harsh.jpg",
         "achievements": ["Bagged a package of 16 LPA from Darwinbox"]
-      },
-      {
-        "name": "Ayush Bhojwani",
-        "image": "/Assets/aayushA.png",
-        "achievements": ["Bagged a package of 23 LPA from DE Shaw"]
-      },
-      {
-        "name": "Rohit Bhojwani",
-        "image": "/Assets/rohitA.png",
-        "achievements": ["Working in Accenture"]
       }
     ],
     "allAwards": [
       {
-        "awardImage": "/Assets/rohitA.png",
-        "name": "Rohit Bhojwani",
-        "description": "1st Rank in Codejam"
-      },
-      {
-        "awardImage": "/Assets/muskansA.png",
-        "name": "Muskan Setiya",
-        "description": "Participated at the Moralis Web3 Filecoin Hackathon and took a prize of $867"
-      },
-      {
-        "awardImage": "/Assets/prathamA.png",
-        "name": "Pratham Rajbhoj",
-        "description": "1st Rank in Techfest IIT Bombay in CoDecode at Nagpur Zonals"
-      },
-      {
-        "awardImage": "/Assets/siddhantA.png",
-        "name": "Siddhant Jain",
-        "description": "Winner at SIH, Karnataka Police Hackathon, India Singapore Hackathon"
-      },
-      {
-        "awardImage": "/Assets/anjaliA.png",
-        "name": "Anjali Kushwaha",
-        "description": "#1 HackTheGame IIT Goa"
-      },
-      {
-        "awardImage": "/Assets/amitA.png",
-        "name": "Amit Mondal",
-        "description": "Selected as Mentee in Microsoft Engage"
-      },
-      {
-        "awardImage": "/Assets/adnanA.png",
+        "awardImage": "/achievers/adnanA.png",
         "name": "Mohammad Adnan Dalal",
         "description": "2nd Position National Level CTF organised by SPVCET - 10k Cash Prize"
       },
       {
-        "awardImage": "/Assets/suyogA.png",
+        "awardImage": "/achievers/suyogA.png",
         "name": "Suyog Parkhi, Aditya Pande",
         "description": "IISF SIF'23 top 50 in India"
       }
