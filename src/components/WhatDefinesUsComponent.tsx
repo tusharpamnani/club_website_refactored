@@ -35,7 +35,7 @@ const WhatDefinesUsComponent = () => {
           >
             <div className="relative w-full h-full text-center transition-transform duration-600 transform-style-3d hover:rotate-y-180">
               <div className="absolute w-full h-full backface-hidden flex flex-col justify-center items-center p-6 rounded-lg bg-white/10 shadow-md">
-                <Image src={card.icon || "/placeholder.svg"} alt="" className="w-[200px] h-[200px] mb-4 object-contain filter drop-shadow-lg md:w-[180px] md:h-[180px]" unoptimized/>
+                <Image src={card.icon} alt="" className="w-[200px] h-[200px] mb-4 object-contain filter drop-shadow-lg md:w-[180px] md:h-[180px]" unoptimized/>
                 <h3 className="text-2xl font-bold text-foreground mb-2 md:text-xl">{card.name}</h3>
               </div>
               <div className="absolute w-full h-full backface-hidden flex flex-col justify-center items-center p-6 rounded-lg bg-primary rotate-y-180">
