@@ -1,5 +1,6 @@
 import AimComponent from '@/components/Home/AimComponent'
 import Carousel from '@/components/Home/Carousel'
+import DomainComponent from '@/components/Home/DomainComponent'
 import Home from '@/components/Home/Hero'
 import React from 'react'
 
@@ -9,6 +10,7 @@ const page = () => {
       <Home/>
       <Carousel/>
       <AimComponent/>
+      <DomainComponent/>
     </>
   )
 }

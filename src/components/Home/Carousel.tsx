@@ -16,7 +16,7 @@ const Carousel = () => {
 
   return (
     <div
-      className="w-[90vw] mx-auto rounded-3xl
+      className="w-[90vw] mx-auto mt-4 rounded-3xl
        my-10
                     xl:rounded-[1.8rem] lg:w-[95vw] lg:rounded-2xl
                     md:w-[90vw] md:rounded-[1.2rem]
