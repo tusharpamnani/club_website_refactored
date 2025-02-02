@@ -1,4 +1,5 @@
 'use client'
+
 import { useState } from "react";
 import { Trophy, Award, ChevronRight } from "lucide-react";
 import { Card, CardContent } from "../../components/ui/Card";
