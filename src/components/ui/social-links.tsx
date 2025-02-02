@@ -1,6 +1,6 @@
 import { Instagram } from 'lucide-react'
 import { Linkedin } from 'lucide-react'
-import type { SocialLinks } from "../types/team"
+import type { SocialLinks } from "../../types/team"
 
 interface SocialLinksProps {
   socials?: SocialLinks;

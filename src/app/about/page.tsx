@@ -2,7 +2,7 @@
 
 import React, { useState, useEffect, useRef } from "react";
 import { ChevronRight } from 'lucide-react';
-import { TeamCard } from "../../components/team-card";
+import { TeamCard } from "../../components/ui/team-card";
 import teamData from "../../data/TeamMembers.json";
 import useTypingEffect from "../../hooks/typinghook";
 import type { TeamMember } from "../../types/team"
