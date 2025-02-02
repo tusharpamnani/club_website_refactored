@@ -38,3 +38,38 @@ body {
   scrollbar-width: none;
 }
 
+@keyframes spin-bounce {
+  0% {
+    transform: rotateY(0deg) translateY(0);
+  }
+
+  25% {
+    transform: rotateY(90deg) translateY(-15px);
+  }
+
+  50% {
+    transform: rotateY(180deg) translateY(0);
+  }
+
+  75% {
+    transform: rotateY(270deg) translateY(15px);
+  }
+
+  100% {
+    transform: rotateY(360deg) translateY(0);
+  }
+}
+
+.img-container:hover img {
+  animation: spin-bounce 2s infinite linear;
+}
+
+.spin-bounce {
+  animation: spin-bounce 2s infinite linear;
+}
+
+
+.drop-shadow-div {
+  filter:
+    drop-shadow(0 0 1.5rem #069F9F) drop-shadow(0 0 4.5rem #069F9F),
+}

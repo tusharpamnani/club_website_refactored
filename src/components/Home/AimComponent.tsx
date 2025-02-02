@@ -1,3 +1,4 @@
+"use client"
 import React from "react";
 
 const data = [
@@ -60,7 +61,7 @@ interface AimCardProps {
 
 const AimCard = ({ imgUrl, title, content }: AimCardProps) => {
   return (
-    <div className="relative text-white px-3 py-6 rounded-lg shadow-lg flex flex-col items-center text-center w-full md:w-1/3 lg:w-1/4">
+    <div className="relative img-container text-white px-3 py-6 rounded-lg shadow-lg flex flex-col items-center text-center w-full md:w-1/3 lg:w-1/4">
       {/* Image */}
       <img
         src={imgUrl}
@@ -68,10 +69,18 @@ const AimCard = ({ imgUrl, title, content }: AimCardProps) => {
         height="250px"
         width="250px"
         style={{
+          animationFillMode:"forwards",
           filter:
             "drop-shadow(0 0 1.5rem #069F9F) drop-shadow(0 0 4.5rem #069F9F)",
         }}
-        className="mb-4"
+        onMouseOver={(e) => {
+          e.currentTarget.classList.add("spin-bounce")
+
+        }}
+        onMouseOut={(e)=>{
+          e.currentTarget.classList.remove("spin-bounce")
+        }}
+        className="mb-4 transition-all"
       />
 
       {/* Title with subtle effect */}

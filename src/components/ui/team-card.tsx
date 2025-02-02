@@ -10,12 +10,12 @@ interface TeamCardProps {
 export function TeamCard({ member, gradient }: TeamCardProps) {
   return (
     <div className="flex-shrink-0 w-64 rounded-xl overflow-hidden" style={{ background: gradient }}>
-      <div className="h-48 bg-black/20">
+      <div className="h-auto bg-black/20">
         <Image
           src={member.profilePic!}
           alt={member.alt}
-          width={256}
-          height={192}
+          width={130}
+          height={130}
           className="w-full h-full object-cover"
         />
       </div>
