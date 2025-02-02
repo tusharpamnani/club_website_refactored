@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Mono:wght@300;400;500&display=swap");
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -23,4 +25,16 @@ body {
 
 .monospaced {
   font-family: 'Geist Mono', monospace;
+  font-family: "DM Mono", monospace;
 }
+
+
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+
+.scrollbar-hide {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
