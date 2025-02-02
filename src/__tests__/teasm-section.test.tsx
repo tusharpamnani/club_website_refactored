@@ -1,7 +1,6 @@
-import { render, screen, fireEvent, waitFor } from "@testing-library/react";
+import { render, screen, fireEvent } from "@testing-library/react";
 import TeamSection from "../app/about/page"; // Ensure correct path
 import teamData from "../data/TeamMembers.json"; // Assuming the data is correctly imported
-import { ChevronRight } from 'lucide-react';
 
 // Mocking the typing effect hook
 jest.mock("../hooks/typinghook", () => ({
@@ -22,7 +21,6 @@ jest.mock("../components/social-links", () => ({
   default: () => <div data-testid="social-links">Social Links</div>,
 }));
 
-
 describe("TeamSection", () => {
   it("displays team sections correctly", () => {
     render(<TeamSection />);
@@ -40,16 +38,17 @@ describe("TeamSection", () => {
     // Wait for the section with a single member (e.g., "Faculty Incharges")
     const facultyInchargesSection = await screen.findByText("Faculty Incharges");
 
-    // Find the scroll button inside this section and assert it doesn't exist
+    // Check if the scroll button is not present in the "Faculty Incharges" section
     const scrollButton = facultyInchargesSection.closest("div")?.querySelector("button[aria-label='Scroll right']");
     expect(scrollButton).toBeNull(); // Should not be in the DOM
   });
 
   it("handles the scroll button click", async () => {
     render(<TeamSection />);
-    const button = screen.getByTestId("scroll-button-The Core Committee"); // Use the unique identifier
+
+    // Use a specific test ID to target the button (e.g., "scroll-button-The Core Committee")
+    const button = screen.getByTestId("scroll-button-The Core Committee");
     fireEvent.click(button);
-    expect(button).toBeInTheDocument();
+    expect(button).toBeInTheDocument(); // Ensure the button is still in the DOM after clicking
   });
-  
 });
