@@ -2,7 +2,7 @@
 // import Slider from "react-slick"
 import Slider from "react-slick"
 import Image from "next/image"
-import team_img from "/public/Assets/team.png"
+import team_img from "/Assets/team.png"
 import "slick-carousel/slick/slick.css"
 import "slick-carousel/slick/slick-theme.css"
 
