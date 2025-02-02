@@ -1,5 +1,5 @@
 import Image from "next/image"
-import type { TeamMember } from "../types/team"
+import type { TeamMember } from "../../types/team"
 import SocialLinks from "./social-links"
 
 interface TeamCardProps {

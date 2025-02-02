@@ -1,5 +1,5 @@
-import Carousel from '@/components/Carousel'
-import Home from '@/components/Hero'
+import Carousel from '@/components/Home/Carousel'
+import Home from '@/components/Home/Hero'
 import React from 'react'
 
 const page = () => {
