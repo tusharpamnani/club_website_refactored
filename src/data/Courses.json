@@ -1,0 +1,17 @@
+{
+  "courses": [
+    {
+      "id": "mern-stack",
+      "title": "MERN Stack Development",
+      "description": "Master MongoDB, Express.js, React, and Node.js to build full-stack applications",
+      "image": "/Assets/mern.webp"
+    },
+    {
+      "id": "python-data-science",
+      "title": "Python for Data Science",
+      "description": "Learn Python programming with a focus on data analysis and machine learning",
+      "image": "/Assets/mern.webp"
+    }
+  ]
+}
+
