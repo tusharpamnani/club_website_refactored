@@ -1,291 +1,304 @@
 {
-    "resources": [
+    "mern-stack": [
         {
+            "id": "basics-html",
             "title": "Basics of HTML",
-            "link": "https://www.youtube.com/watch?v=qz0aGYrrlhU",
-            "tags": [
-                "Youtube Video"
-            ]
+            "description": "Learn the basics of HTML structure and syntax",
+            "link": "https://www.youtube.com/watch?v=qz0aGYrrlhU"
         },
         {
+            "id": "semantic-html",
             "title": "Writing Semantic HTML",
-            "link": "https://www.youtube.com/watch?v=DSRMCZwM3YE",
-            "tags": [
-                "Youtube Video"
-            ]
+            "description": "Understand and implement semantic HTML for better accessibility and SEO",
+            "link": "https://www.youtube.com/watch?v=DSRMCZwM3YE"
         },
         {
+            "id": "forms-validation",
             "title": "Forms and Validation",
-            "link": "https://www.youtube.com/watch?v=LhWQlBdqaeM",
-            "tags": [
-                "Youtube Video"
-            ]
+            "description": "Learn how to handle forms and validate user inputs",
+            "link": "https://www.youtube.com/watch?v=LhWQlBdqaeM"
         },
         {
+            "id": "accessibility",
             "title": "Accesibility",
-            "link": "https://www.youtube.com/watch?v=e2nkq3h1P68",
-            "tags": [
-                "Youtube Video"
-            ]
+            "description": "Learn web accessibility best practices",
+            "link": "https://www.youtube.com/watch?v=e2nkq3h1P68"
         },
         {
+            "id": "basics-seo",
             "title": "Basics of SEO",
-            "link": "https://www.youtube.com/watch?v=ORazAn-Iigg",
-            "tags": [
-                "Youtube Video"
-            ]
+            "description": "Learn the fundamentals of Search Engine Optimization",
+            "link": "https://www.youtube.com/watch?v=ORazAn-Iigg"
         },
         {
+            "id": "need-css",
             "title": "The need of CSS",
-            "link": "https://www.youtube.com/watch?v=AP3_V7KXHs4&t=50s",
-            "tags": [
-                "Youtube Video"
-            ]
+            "description": "Understand why CSS is essential for web design",
+            "link": "https://www.youtube.com/watch?v=AP3_V7KXHs4&t=50s"
         },
         {
-            "title": "Basics of HTML",
-            "link": "https://www.youtube.com/watch?v=qz0aGYrrlhU",
-            "tags": [
-                "Youtube Video"
-            ]
+            "id": "why-css",
+            "title": "Why do we need CSS?",
+            "description": "Explore the importance of CSS in styling web pages",
+            "link": "https://www.youtube.com/watch?v=AP3_V7KXHs4&t=50s"
         },
         {
-            "title": "Basics of HTML",
-            "link": "https://www.youtube.com/watch?v=qz0aGYrrlhU",
-            "tags": [
-                "Youtube Video"
-            ]
+            "id": "how-to-add-css",
+            "title": "How to add CSS",
+            "description": "Learn different ways to apply CSS to your web pages",
+            "link": "https://www.youtube.com/watch?v=AP3_V7KXHs4&t=50s"
         },
         {
-            "title": "Basics of HTML",
-            "link": "https://www.youtube.com/watch?v=qz0aGYrrlhU",
-            "tags": [
-                "Youtube Video"
-            ]
+            "id": "basic-css",
+            "title": "Basic of CSS",
+            "description": "Understand the core concepts of CSS styling",
+            "link": "https://www.youtube.com/watch?v=wRNinF7YQqQ"
         },
         {
-            "title": "Basics of HTML",
-            "link": "https://www.youtube.com/watch?v=qz0aGYrrlhU",
-            "tags": [
-                "Youtube Video"
-            ]
+            "id": "responsiveness",
+            "title": "Responsiveness",
+            "description": "Learn how to make websites responsive using CSS",
+            "link": "https://www.youtube.com/watch?v=yU7jJ3NbPdA"
         },
         {
-            "title": "Basics of HTML",
-            "link": "https://www.youtube.com/watch?v=qz0aGYrrlhU",
-            "tags": [
-                "Youtube Video"
-            ]
+            "id": "animation",
+            "title": "Animation",
+            "description": "Add animations to your website with CSS",
+            "link": "https://www.youtube.com/watch?v=YszONjKpgg4"
         },
         {
-            "title": "Basics of HTML",
-            "link": "https://www.youtube.com/watch?v=qz0aGYrrlhU",
-            "tags": [
-                "Youtube Video"
-            ]
+            "id": "flexbox",
+            "title": "Flexbox",
+            "description": "Master CSS Flexbox for creating flexible layouts",
+            "link": "https://www.youtube.com/watch?v=tXIhdp5R7sc"
         },
         {
-            "title": "Basics of HTML",
-            "link": "https://www.youtube.com/watch?v=qz0aGYrrlhU",
-            "tags": [
-                "Youtube Video"
-            ]
+            "id": "grid",
+            "title": "Grid",
+            "description": "Learn CSS Grid to create advanced grid-based layouts",
+            "link": "https://www.youtube.com/watch?v=BNmxUzPRYdw"
         },
         {
-            "title": "Basics of HTML",
-            "link": "https://www.youtube.com/watch?v=qz0aGYrrlhU",
-            "tags": [
-                "Youtube Video"
-            ]
+            "id": "bootstrap",
+            "title": "Bootstrap",
+            "description": "Learn how to use Bootstrap to build responsive websites",
+            "link": "https://www.youtube.com/watch?v=Jyvffr3aCp0"
         },
         {
-            "title": "Basics of HTML",
-            "link": "https://www.youtube.com/watch?v=qz0aGYrrlhU",
-            "tags": [
-                "Youtube Video"
-            ]
+            "id": "tailwind-css",
+            "title": "Tailwind CSS",
+            "description": "Learn how to use Tailwind CSS for utility-first design",
+            "link": "https://www.youtube.com/watch?v=_9mTJ84uL1Q"
         },
         {
-            "title": "Basics of HTML",
-            "link": "https://www.youtube.com/watch?v=qz0aGYrrlhU",
-            "tags": [
-                "Youtube Video"
-            ]
+            "id": "learn-basics",
+            "title": "Learn the basics",
+            "description": "Understand the core basics of web development",
+            "link": "https://www.youtube.com/watch?v=lkIFF4maKMU"
         },
         {
-            "title": "Basics of HTML",
-            "link": "https://www.youtube.com/watch?v=qz0aGYrrlhU",
-            "tags": [
-                "Youtube Video"
-            ]
+            "id": "dom-manipulation",
+            "title": "DOM Manipulation",
+            "description": "Learn how to manipulate the Document Object Model (DOM) with JavaScript",
+            "link": "https://www.youtube.com/watch?v=5fb2aPlgoys"
         },
         {
-            "title": "Basics of HTML",
-            "link": "https://www.youtube.com/watch?v=qz0aGYrrlhU",
-            "tags": [
-                "Youtube Video"
-            ]
+            "id": "advance-topics",
+            "title": "Advance Topics",
+            "description": "Dive into advanced web development topics",
+            "link": "https://www.youtube.com/watch?v=R9I85RhI7Cg"
         },
         {
-            "title": "Basics of HTML",
-            "link": "https://www.youtube.com/watch?v=qz0aGYrrlhU",
-            "tags": [
-                "Youtube Video"
-            ]
+            "id": "intro-git",
+            "title": "Introduction to GIT",
+            "description": "Learn the basics of Git version control",
+            "link": "https://www.youtube.com/watch?v=7tOLcNZfPso&list=PLRAV69dS1uWT4v4iK1h6qejyhGObFH9_o"
         },
         {
-            "title": "Basics of HTML",
-            "link": "https://www.youtube.com/watch?v=qz0aGYrrlhU",
-            "tags": [
-                "Youtube Video"
-            ]
+            "id": "git-init",
+            "title": "Master Git Init",
+            "description": "Learn how to initialize a Git repository",
+            "link": "https://www.youtube.com/watch?v=l_V7sNrpd3A&list=PLRAV69dS1uWT4v4iK1h6qejyhGObFH9_o&index=2"
         },
         {
-            "title": "Basics of HTML",
-            "link": "https://www.youtube.com/watch?v=qz0aGYrrlhU",
-            "tags": [
-                "Youtube Video"
-            ]
+            "id": "git-commits",
+            "title": "Git commits and logs",
+            "description": "Learn how to commit changes in Git and view logs",
+            "link": "https://www.youtube.com/watch?v=wVGiJKSnJY0&list=PLRAV69dS1uWT4v4iK1h6qejyhGObFH9_o&index=3"
         },
         {
-            "title": "Basics of HTML",
-            "link": "https://www.youtube.com/watch?v=qz0aGYrrlhU",
-            "tags": [
-                "Youtube Video"
-            ]
+            "id": "git-internal",
+            "title": "Git internal working and configs",
+            "description": "Understand the internal workings of Git and its configurations",
+            "link": "https://www.youtube.com/watch?v=owQtvW112tI&list=PLRAV69dS1uWT4v4iK1h6qejyhGObFH9_o&index=4"
         },
         {
-            "title": "Basics of HTML",
-            "link": "https://www.youtube.com/watch?v=qz0aGYrrlhU",
-            "tags": [
-                "Youtube Video"
-            ]
+            "id": "git-merge",
+            "title": "Git merge and git conflicts",
+            "description": "Learn how to resolve merge conflicts in Git",
+            "link": "https://www.youtube.com/watch?v=vw-2U0u7Ni4&list=PLRAV69dS1uWT4v4iK1h6qejyhGObFH9_o&index=5"
         },
         {
-            "title": "Basics of HTML",
-            "link": "https://www.youtube.com/watch?v=qz0aGYrrlhU",
-            "tags": [
-                "Youtube Video"
-            ]
+            "id": "git-diff",
+            "title": "Git Diff and stashing",
+            "description": "Learn how to use Git diff and stash commands",
+            "link": "https://www.youtube.com/watch?v=EYdIMAVFIk0&list=PLRAV69dS1uWT4v4iK1h6qejyhGObFH9_o&index=6"
         },
         {
-            "title": "Basics of HTML",
-            "link": "https://www.youtube.com/watch?v=qz0aGYrrlhU",
-            "tags": [
-                "Youtube Video"
-            ]
+            "id": "github-one-shot",
+            "title": "Github in one shot",
+            "description": "Get a quick overview of using GitHub for version control",
+            "link": "https://www.youtube.com/watch?v=TsSjgkfAeJ0"
         },
         {
-            "title": "Basics of HTML",
-            "link": "https://www.youtube.com/watch?v=qz0aGYrrlhU",
-            "tags": [
-                "Youtube Video"
-            ]
+            "id": "overview",
+            "title": "Overview",
+            "description": "General overview of key web development concepts",
+            "link": "https://www.youtube.com/watch?v=XBu54nfzxAQ"
         },
         {
-            "title": "Basics of HTML",
-            "link": "https://www.youtube.com/watch?v=qz0aGYrrlhU",
-            "tags": [
-                "Youtube Video"
-            ]
+            "id": "backend-tools",
+            "title": "Backend Tools and Technologies",
+            "description": "Explore the tools and technologies used in backend development",
+            "link": "https://www.youtube.com/watch?v=tN6oJu2DqCM"
         },
         {
-            "title": "Basics of HTML",
-            "link": "https://www.youtube.com/watch?v=qz0aGYrrlhU",
-            "tags": [
-                "Youtube Video"
-            ]
+            "id": "nodejs",
+            "title": "Node.js",
+            "description": "Learn about Node.js for building scalable server-side applications",
+            "link": "https://www.youtube.com/watch?v=TlB_eWDSMt4"
         },
         {
-            "title": "Basics of HTML",
-            "link": "https://www.youtube.com/watch?v=qz0aGYrrlhU",
-            "tags": [
-                "Youtube Video"
-            ]
+            "id": "express",
+            "title": "Express",
+            "description": "Learn the Express framework for Node.js to build web applications",
+            "link": "https://www.youtube.com/watch?v=SccSCuHhOw0"
         },
         {
-            "title": "Basics of HTML",
-            "link": "https://www.youtube.com/watch?v=qz0aGYrrlhU",
-            "tags": [
-                "Youtube Video"
-            ]
+            "id": "first-server",
+            "title": "Creating First Server with Express",
+            "description": "Learn how to create your first server with Express",
+            "link": "https://www.youtube.com/watch?v=N2-FyBBxOZA"
         },
         {
-            "title": "Basics of HTML",
-            "link": "https://www.youtube.com/watch?v=qz0aGYrrlhU",
-            "tags": [
-                "Youtube Video"
-            ]
+            "id": "http-requests",
+            "title": "HTTP Requests",
+            "description": "Understand how to make HTTP requests in web development",
+            "link": "https://www.youtube.com/watch?v=qgZiUvV41TI"
         },
         {
-            "title": "Basics of HTML",
-            "link": "https://www.youtube.com/watch?v=qz0aGYrrlhU",
-            "tags": [
-                "Youtube Video"
-            ]
+            "id": "postman",
+            "title": "Postman",
+            "description": "Learn how to use Postman for API testing",
+            "link": "https://www.youtube.com/watch?v=4-DmsxM347k"
         },
         {
-            "title": "Basics of HTML",
-            "link": "https://www.youtube.com/watch?v=qz0aGYrrlhU",
-            "tags": [
-                "Youtube Video"
-            ]
+            "id": "middlewares",
+            "title": "Middlewares",
+            "description": "Understand the concept of middlewares in Express",
+            "link": "https://www.youtube.com/watch?v=n2c0mf1sza4"
         },
         {
-            "title": "Basics of HTML",
-            "link": "https://www.youtube.com/watch?v=qz0aGYrrlhU",
-            "tags": [
-                "Youtube Video"
-            ]
+            "id": "rest-api",
+            "title": "REST API",
+            "description": "Learn how to create RESTful APIs with Express",
+            "link": "https://www.youtube.com/watch?v=cJAyEOZQUQY"
         },
         {
-            "title": "Basics of HTML",
-            "link": "https://www.youtube.com/watch?v=qz0aGYrrlhU",
-            "tags": [
-                "Youtube Video"
-            ]
+            "id": "graphql-api",
+            "title": "GraphQL API",
+            "description": "Learn how to create GraphQL APIs with Express",
+            "link": "https://www.youtube.com/watch?v=WtkKwO1viI8&t=808s"
         },
         {
-            "title": "Basics of HTML",
-            "link": "https://www.youtube.com/watch?v=qz0aGYrrlhU",
-            "tags": [
-                "Youtube Video"
-            ]
+            "id": "databases",
+            "title": "Different type of Database",
+            "description": "Understand the different types of databases used in web development",
+            "link": "https://www.youtube.com/watch?v=W2Z7fbCLSTw&t=9s"
         },
         {
-            "title": "Basics of HTML",
-            "link": "https://www.youtube.com/watch?v=qz0aGYrrlhU",
-            "tags": [
-                "Youtube Video"
-            ]
+            "id": "no-sql-vs-sql",
+            "title": "No SQL vs SQL",
+            "description": "Learn the differences between NoSQL and SQL databases",
+            "link": "https://www.youtube.com/watch?v=ruz-vK8IesE"
         },
         {
-            "title": "Basics of HTML",
-            "link": "https://www.youtube.com/watch?v=qz0aGYrrlhU",
-            "tags": [
-                "Youtube Video"
-            ]
+            "id": "mongodb",
+            "title": "MongoDB in one shot",
+            "description": "Learn MongoDB in one go for backend development",
+            "link": "https://www.youtube.com/watch?v=J6mDkcqU_ZE"
         },
         {
-            "title": "Basics of HTML",
-            "link": "https://www.youtube.com/watch?v=qz0aGYrrlhU",
-            "tags": [
-                "Youtube Video"
-            ]
+            "id": "postgres-db",
+            "title": "Postgres DB",
+            "description": "Learn about PostgreSQL and its usage in web development",
+            "link": "https://www.youtube.com/watch?v=qw--VYLpxG4"
         },
         {
-            "title": "Basics of HTML",
-            "link": "https://www.youtube.com/watch?v=qz0aGYrrlhU",
-            "tags": [
-                "Youtube Video"
-            ]
+            "id": "prisma",
+            "title": "Prisma",
+            "description": "Learn how to use Prisma as an ORM with Node.js",
+            "link": "https://www.youtube.com/watch?v=RebA5J-rlwg&t=155s"
         },
         {
-            "title": "Basics of HTML",
-            "link": "https://www.youtube.com/watch?v=qz0aGYrrlhU",
-            "tags": [
-                "Youtube Video"
-            ]
+            "id": "components",
+            "title": "Components",
+            "description": "Learn how to create and use components in web development",
+            "link": "https://www.youtube.com/watch?v=VSSm2nebwak&list=PLinedj3B30sBm5wu3ixPRQ0gDqHJUlxQf&index=4"
+        },
+        {
+            "id": "rendering",
+            "title": "Rendering",
+            "description": "Understand how rendering works in web development",
+            "link": "https://www.youtube.com/watch?v=mECV6nGOqNo"
+        },
+        {
+            "id": "props",
+            "title": "Props",
+            "description": "Learn about props in React and their usage",
+            "link": "https://www.youtube.com/watch?v=VpGFuThTjhY&list=PLinedj3B30sBm5wu3ixPRQ0gDqHJUlxQf&index=5"
+        },
+        {
+            "id": "hooks",
+            "title": "Hooks",
+            "description": "Learn about React hooks and how they enhance functional components",
+            "link": "https://www.youtube.com/watch?v=4Cf86qVEIJY"
+        },
+        {
+            "id": "routers",
+            "title": "Routers",
+            "description": "Understand how to use routers in React applications",
+            "link": "https://www.youtube.com/watch?v=VJov5QWEKE4"
+        },
+        {
+            "id": "state-management-redux",
+            "title": "State management (Redux)",
+            "description": "Learn how to manage state in React applications with Redux",
+            "link": "https://www.youtube.com/watch?v=fxT54eRIsc4"
+        },
+        {
+            "id": "api-calls",
+            "title": "API Calls",
+            "description": "Learn how to make API calls in React",
+            "link": "https://www.youtube.com/watch?v=V2x2Nq-fcTU&list=PLinedj3B30sBm5wu3ixPRQ0gDqHJUlxQf&index=9"
+        },
+        {
+            "id": "next-js",
+            "title": "Framework (Next JS)",
+            "description": "Learn the Next.js framework for building server-side rendered React applications",
+            "link": "https://www.youtube.com/watch?v=wm5gMKuwSYk"
+        },
+        {
+            "id": "zod",
+            "title": "Type & validation (Zod)",
+            "description": "Learn how to use Zod for type safety and validation in JavaScript",
+            "link": "https://www.youtube.com/watch?v=9UVPk0Ulm6U&t=28s"
+        },
+        {
+            "id": "framer-animation",
+            "title": "Animation (Framer)",
+            "description": "Learn how to create animations in React using Framer",
+            "link": "https://www.youtube.com/watch?v=GOuwOI-WSkE"
         }
     ]
 }
