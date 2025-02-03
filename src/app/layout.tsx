@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import "./globals.css";
 // import NavBar from "@/components/Navbar";
 import NavBar from "@/components/Navbar2.0";
+// import Driver from "@/components/Driver";
 
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -13,6 +14,7 @@ export default function RootLayout({
 }: Readonly<{
   children: React.ReactNode;
 }>) {
+  
   return (
     <html lang="en">
       <body
@@ -21,6 +23,7 @@ export default function RootLayout({
         {/* <NavBar /> */}
         <NavBar/>
         {children}
+        {/* <Driver/> */}
       </body>
     </html>
   );
