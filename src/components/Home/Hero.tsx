@@ -184,6 +184,7 @@ export default function AnimatedWaves() {
       >
         <motion.h1
           className="text-3xl sm:text-5xl md:text-7xl lg:text-8xl font-bold mb-6"
+
           style={{
             color: "rgb(139, 231, 239)",
             textShadow: "0 0 30px rgba(139, 231, 239, 0.7), 0 0 60px rgba(139, 231, 239, 0.5)",
