@@ -183,7 +183,7 @@ export default function AnimatedWaves() {
         transition={{ duration: 2, ease: "easeOut" }}
       >
         <motion.h1
-          className="text-6xl font-bold mb-6"
+          className="text-4xl sm:text-6xl font-bold mb-6 "
           style={{
             color: "rgb(139, 231, 239)",
             textShadow: "0 0 30px rgba(139, 231, 239, 0.7), 0 0 60px rgba(139, 231, 239, 0.5)",
@@ -200,7 +200,7 @@ export default function AnimatedWaves() {
           The Codebreakers Club
         </motion.h1>
         <motion.h2
-          className="text-3xl text-white"
+          className="text-2xl sm:text-3xl text-white"
           style={{
             textShadow: "0 0 20px rgba(255, 255, 255, 0.5), 0 0 40px rgba(255, 255, 255, 0.3)",
           }}
