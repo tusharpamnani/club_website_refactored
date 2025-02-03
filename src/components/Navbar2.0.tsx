@@ -36,6 +36,13 @@ const navItems: NavItem[] = [
       rotation: "-rotate-[55deg]",
       tooltipStyle: { transform: "rotateZ(-55deg)", top: "0px", left: "-65px" },
     },
+    {
+      icon: "/assets/home/Events.svg",
+      label: "Events",
+      link: "/events",
+      rotation: "-rotate-[55deg]",
+      tooltipStyle: { transform: "rotateZ(-55deg)", top: "0px", left: "-65px" },
+    },
 
   ]
 
@@ -66,10 +73,9 @@ const Navbar: React.FC = () => {
         </button>
         <ul className="relative">
         {navItems.map((item, index) => {
-            const totalItems = navItems.length;
-            const angle = -(Math.PI / (7)) * index - Math.PI / 2; // Arch effect
+            const angle = (-(Math.PI / (8)) * index - Math.PI / 2) + .05; // Arch effect
 
-            const radius = 150; // Adjust radius to control spread
+            const radius = 200; // Adjust radius to control spread
             const x = Math.cos(angle) * radius;
             const y = Math.sin(angle) * radius;
 
@@ -87,7 +93,7 @@ const Navbar: React.FC = () => {
             }}
             >
             <Link href={item.link} className="group relative">
-                <img src={item.icon || "/placeholder.svg"} alt={item.label} className={`${item.rotation}`} />
+                <Image src={item.icon || "/placeholder.svg"} alt={item.label} className={`${item.rotation}`} />
                 <span
                 className="invisible absolute w-[80px] rounded-md bg-[#555] p-[5px] text-center text-white opacity-0 transition-opacity duration-300 group-hover:visible group-hover:opacity-100"
                 style={item.tooltipStyle}
