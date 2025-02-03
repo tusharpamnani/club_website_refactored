@@ -27,7 +27,7 @@ const NavBar = () => {
   };
 
   return (
-    <header className="h-[12vh] w-full flex items-center justify-between px-6 bg-gray-900 text-white">
+    <header className="h-[12vh] w-full flex items-center justify-between px-6 bg-black text-white opacity">
       <div className="flex items-center space-x-3 text-lg font-semibold">
         <Image
           src="/Assets/tcblogo.png"
