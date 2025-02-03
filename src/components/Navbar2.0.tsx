@@ -14,7 +14,7 @@ interface NavItem {
 }
 
 const navItems: NavItem[] = [
-    { icon: "/assets/home/home-outline.svg", label: "Home", link: "/", rotation: "", tooltipStyle: { left: "-78px" } },
+    // { icon: "/assets/home/home-outline.svg", label: "Home", link: "/", rotation: "", tooltipStyle: { left: "-78px" } },
     {
       icon: "/assets/home/About.svg",
       label: "About",
@@ -93,7 +93,7 @@ const Navbar: React.FC = () => {
             }}
             >
             <Link href={item.link} className="group relative">
-                <Image src={item.icon || "/placeholder.svg"} alt={item.label} className={`${item.rotation}`} />
+                <Image src={item.icon || "/placeholder.svg"} alt={item.label} className={`${item.rotation}`} width={30} height={30}/>
                 <span
                 className="invisible absolute w-[80px] rounded-md bg-[#555] p-[5px] text-center text-white opacity-0 transition-opacity duration-300 group-hover:visible group-hover:opacity-100"
                 style={item.tooltipStyle}
