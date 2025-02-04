@@ -7,11 +7,11 @@
       "image": "/Assets/mern.webp"
     },
     {
-      "id": "python-data-science",
-      "title": "Python for Data Science",
-      "description": "Learn Python programming with a focus on data analysis and machine learning",
+      "id": "blockchain",
+      "title": "Blockchain Development",
+      "description": "Learn the fundamentals of blockchain technology, including smart contracts and decentralized applications",
       "image": "/Assets/mern.webp"
-    }
+    }    
   ]
 }
 

@@ -1,6 +1,15 @@
 import coursesData from "@/data/courses.json"
-import { CourseCard } from "@/components/ui/course-card"
+import { CourseCard } from "@/components/Resources/course-card"
 import type { Course } from "@/types/course"
+
+/**
+ * This page displays a list of all available courses in a grid layout.
+ * The course data is fetched from the courses.json file, and each course
+ * is rendered using the CourseCard component.
+ * 
+ * The container supports vertical scrolling to handle overflow content
+ * while maintaining a fixed height relative to the viewport.
+ */
 
 export default function CoursesPage() {
   return (

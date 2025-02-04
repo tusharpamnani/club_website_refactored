@@ -2,6 +2,10 @@ import Link from "next/link"
 import Image from "next/image"
 import type { Course } from "@/types/course"
 
+/*
+* Refer to `scr/app/resources/page.tsx` for the context of this card component
+*/
+
 interface CourseCardProps {
   course: Course
 }

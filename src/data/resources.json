@@ -300,5 +300,283 @@
             "description": "Learn how to create animations in React using Framer",
             "link": "https://www.youtube.com/watch?v=GOuwOI-WSkE"
         }
+    ],
+    "blockchain": [
+        {
+            "id": "introduction-blockchain",
+            "title": "What is Blockchain?",
+            "description": "Learn about the basics of Blockchain technology.",
+            "link": "https://www.youtube.com/watch?v=yubzJw0uiE4"
+        },
+        {
+            "id": "introduction-decentralization",
+            "title": "What is Decentralization?",
+            "description": "Understand the concept of decentralization in blockchain.",
+            "link": "https://www.youtube.com/watch?v=5iesIki27zw"
+        },
+        {
+            "id": "blockchain-structure",
+            "title": "Blockchain Structure",
+            "description": "Explore the structure of blockchain technology.",
+            "link": "https://www.coursera.org/lecture/blockchain-basics/blockchain-structure-5rj9Z"
+        },
+        {
+            "id": "blockchain-operations",
+            "title": "Basic Blockchain Operations",
+            "description": "Learn about the fundamental operations in blockchain.",
+            "link": "https://www.coursera.org/lecture/blockchain-basics/basic-operations-OxILB"
+        },
+        {
+            "id": "bitcoin-functionality",
+            "title": "How Does Bitcoin Actually Work?",
+            "description": "An in-depth look at how Bitcoin functions.",
+            "link": "https://www.youtube.com/watch?v=bBC-nXj3Ng4"
+        },
+        {
+            "id": "blockchain-use-cases",
+            "title": "Use Cases of Blockchain in Industry",
+            "description": "Learn about real-world applications of blockchain.",
+            "link": "https://www.blockchain-council.org/blockchain/top-10-real-world-applications-of-blockchain-technology/"
+        },
+        {
+            "id": "ethereum-consensus",
+            "title": "Ethereum Consensus Mechanism",
+            "description": "Understand how consensus works in Ethereum.",
+            "link": "https://ethereum.org/en/developers/docs/consensus-mechanisms/"
+        },
+        {
+            "id": "cryptographic-truth",
+            "title": "The Superiority of Cryptographic Truth",
+            "description": "Learn about the role of cryptographic truth in blockchain.",
+            "link": "https://www.youtube.com/watch?v=AEtBPbmIRKQ"
+        },
+        {
+            "id": "blockchain-forking",
+            "title": "Blockchain Forking",
+            "description": "Learn what blockchain forking is and how it works.",
+            "link": "https://www.youtube.com/watch?v=Bu1GcyyFZ7w"
+        },
+        {
+            "id": "cryptocurrency-functionality",
+            "title": "How Cryptocurrencies Work?",
+            "description": "A detailed explanation of how cryptocurrencies function.",
+            "link": "https://www.youtube.com/watch?v=rYQgy8QDEBI"
+        },
+        {
+            "id": "crypto-wallets",
+            "title": "What are Crypto wallets?",
+            "description": "Understand the role and functionality of crypto wallets.",
+            "link": "https://www.youtube.com/watch?v=4PvA7oYDXu8"
+        },
+        {
+            "id": "blockchain-storage-ipfs",
+            "title": "Blockchain Storage: IPFS",
+            "description": "Learn about the InterPlanetary File System (IPFS) for storage.",
+            "link": "https://www.youtube.com/watch?v=5Uj6uR3fp-U"
+        },
+        {
+            "id": "cryptography-basics",
+            "title": "Basics of Cryptography",
+            "description": "Introduction to the basics of cryptography.",
+            "link": "https://www.youtube.com/watch?v=6_Cxj5WKpIw"
+        },
+        {
+            "id": "blockchain-interoperability",
+            "title": "Blockchain Interoperability",
+            "description": "Learn about the interoperability of different blockchains.",
+            "link": "https://101blockchains.com/blockchain-interoperability/"
+        },
+        {
+            "id": "ethereum-overview",
+            "title": "What is Ethereum?",
+            "description": "Learn about the Ethereum blockchain.",
+            "link": "https://www.youtube.com/watch?v=1Hu8lzoi0Tw"
+        },
+        {
+            "id": "ethereum-evm",
+            "title": "What is EVM?",
+            "description": "Understand the Ethereum Virtual Machine (EVM).",
+            "link": "https://www.youtube.com/watch?v=sTOcqS4msoU"
+        },
+        {
+            "id": "solana-overview",
+            "title": "What is Solana?",
+            "description": "An overview of the Solana blockchain.",
+            "link": "https://www.youtube.com/watch?v=1jzROE6EhxM"
+        },
+        {
+            "id": "hybrid-smart-contracts",
+            "title": "Hybrid Smart Contracts",
+            "description": "Learn about hybrid smart contracts and their use.",
+            "link": "https://chain.link/education-hub/hybrid-smart-contracts"
+        },
+        {
+            "id": "what-is-chainlink",
+            "title": "What is Chainlink?",
+            "description": "An introduction to Chainlink and its role in blockchain.",
+            "link": "https://blog.chain.link/what-is-chainlink/"
+        },
+        {
+            "id": "blockchain-oracles",
+            "title": "Understanding Blockchain Oracles",
+            "description": "Learn about the role of oracles in blockchain technology.",
+            "link": "https://chain.link/education/blockchain-oracles"
+        },
+        {
+            "id": "remix-ide",
+            "title": "Remix IDE",
+            "description": "Learn how to use Remix IDE for smart contract development.",
+            "link": "https://remix.ethereum.org/"
+        },
+        {
+            "id": "unit-testing",
+            "title": "Unit Testing",
+            "description": "Learn how to perform unit testing for smart contracts.",
+            "link": "https://ethereum.org/en/developers/docs/smart-contracts/testing/#unit-testing"
+        },
+        {
+            "id": "integration-testing",
+            "title": "Integration Testing",
+            "description": "Learn how to perform integration testing in blockchain development.",
+            "link": "https://blog.logrocket.com/complete-guide-blockchain-testing/"
+        },
+        {
+            "id": "code-coverage-hardhat",
+            "title": "Code Coverage in Hardhat",
+            "description": "Learn about code coverage tools in Hardhat.",
+            "link": "https://medium.com/coinmonks/smart-contract-code-coverage-in-hardhat-d4a5ff6c9ba6"
+        },
+        {
+            "id": "deploying-smart-contracts",
+            "title": "Deploying Smart Contracts",
+            "description": "Understand how to deploy smart contracts on Ethereum.",
+            "link": "https://ethereum.org/en/developers/docs/smart-contracts/deploying/"
+        },
+        {
+            "id": "what-are-erc",
+            "title": "What are ERC?",
+            "description": "Learn about Ethereum Request for Comments (ERC) standards.",
+            "link": "https://dev.to/envoy_/ks-what-are-ethereum-request-for-comments-erc-standards-5f80"
+        },
+        {
+            "id": "erc-20-standard",
+            "title": "ERC-20 Standard",
+            "description": "Understand the ERC-20 token standard.",
+            "link": "https://ethereum.org/en/developers/docs/standards/tokens/erc-20/"
+        },
+        {
+            "id": "erc-721-standard",
+            "title": "ERC-721 Standard (NFTs)",
+            "description": "Learn about the ERC-721 standard for NFTs.",
+            "link": "https://decrypt.co/resources/erc-721-ethereum-nft-token-standard"
+        },
+        {
+            "id": "hardhat",
+            "title": "Hardhat",
+            "description": "Learn how to use Hardhat for Ethereum development.",
+            "link": "https://www.youtube.com/watch?v=GBc3lBrXEBo"
+        },
+        {
+            "id": "truffle",
+            "title": "Truffle",
+            "description": "Learn about Truffle framework for Ethereum.",
+            "link": "https://www.youtube.com/watch?v=62f757RVEvU"
+        },
+        {
+            "id": "foundry",
+            "title": "Foundry",
+            "description": "Learn about Foundry framework for Ethereum.",
+            "link": "https://www.youtube.com/watch?v=fNMfMxGxeag"
+        },
+        {
+            "id": "ethers-js",
+            "title": "Ethers.js",
+            "description": "Learn about Ethers.js, a library for interacting with the Ethereum blockchain.",
+            "link": "https://www.youtube.com/watch?v=yk7nVp5HTCk"
+        },
+        {
+            "id": "web3-js",
+            "title": "Web3.js",
+            "description": "Learn about Web3.js for blockchain interaction.",
+            "link": "https://youtube.com/playlist?list=PLS5SEs8ZftgXlCGXNfzKdq7nGBcIaVOdN&si=Z-Sp3A2IoeRLQ1mC"
+        },
+        {
+            "id": "defi",
+            "title": "DeFi",
+            "description": "Learn about Decentralized Finance (DeFi) and its applications.",
+            "link": "https://www.youtube.com/watch?v=17QRFlml4pA"
+        },
+        {
+            "id": "daos",
+            "title": "What are DAOs and how do they work?",
+            "description": "Understand Decentralized Autonomous Organizations (DAOs).",
+            "link": "https://consensys.io/blog/what-is-a-dao-and-how-do-they-work"
+        },
+        {
+            "id": "nfts",
+            "title": "NFTs",
+            "description": "Learn about Non-Fungible Tokens (NFTs) and their use.",
+            "link": "https://www.youtube.com/watch?v=NNQLJcJEzv0&feature=youtu.be"
+        },
+        {
+            "id": "payments",
+            "title": "Payments",
+            "description": "Learn how blockchain is used for payments.",
+            "link": "https://blog.chain.link/smart-contract-use-cases/#external-payments"
+        },
+        {
+            "id": "insurance",
+            "title": "Insurance",
+            "description": "Learn how blockchain is transforming insurance.",
+            "link": "https://blog.chain.link/smart-contract-use-cases/#insurance"
+        },
+        {
+            "id": "state-payment-channels",
+            "title": "State and Payment Channels",
+            "description": "Understand state channels and payment channels in Ethereum.",
+            "link": "https://education.district0x.io/general-topics/understanding-ethereum/basics-state-channels/"
+        },
+        {
+            "id": "rollups",
+            "title": "What are Rollups? Optimistic vs ZK",
+            "description": "Learn about rollups and their differences (Optimistic vs ZK).",
+            "link": "https://www.youtube.com/watch?v=7B-dbMuG6hI"
+        },
+        {
+            "id": "optimistic-rollups",
+            "title": "Optimistic Rollups",
+            "description": "Learn about Optimistic Rollups and how they work.",
+            "link": "https://www.alchemy.com/overviews/optimistic-rollups"
+        },
+        {
+            "id": "zk-snarks",
+            "title": "zk Snarks",
+            "description": "Learn about zk-SNARKs and their applications in blockchain.",
+            "link": "https://www.youtube.com/watch?v=N5Qip04KIfo"
+        },
+        {
+            "id": "validium",
+            "title": "Validium",
+            "description": "Learn about Validium and its role in scaling blockchains.",
+            "link": "https://ethereum.org/en/developers/docs/scaling/validium/"
+        },
+        {
+            "id": "plasma-chains",
+            "title": "Plasma Chains",
+            "description": "Learn about Plasma chains and their impact on Ethereum scaling.",
+            "link": "https://ethereum.org/en/developers/docs/scaling/plasma/"
+        },
+        {
+            "id": "sidechains",
+            "title": "Sidechains",
+            "description": "Understand sidechains and how they contribute to scalability.",
+            "link": "https://ethereum.org/en/developers/docs/scaling/sidechains/"
+        },
+        {
+            "id": "on-chain-scaling",
+            "title": "On-Chain Scaling",
+            "description": "Learn about on-chain scaling solutions for Ethereum.",
+            "link": "https://ethereum.org/en/developers/docs/scaling/"
+        }
     ]
 }

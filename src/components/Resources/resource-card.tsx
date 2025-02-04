@@ -1,5 +1,9 @@
 import { Resource } from "@/types/course"
 
+/*
+    * Refer to `src/app/resources/courses/[id]/page.tsx` for more context of this card component
+*/
+
 interface ResourceCardProps {
   resource: Resource
 }

@@ -1,5 +1,5 @@
 import { render, screen } from "@testing-library/react";
-import { TeamCard } from "../components/ui/team-card";  // Adjust the import path
+import { TeamCard } from "../components/About/team-card";  // Adjust the import path
 import { TeamMember } from "../types/team";  // Adjust the import path
 
 // Mock the SocialLinks component for this test
