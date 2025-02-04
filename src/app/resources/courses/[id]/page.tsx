@@ -1,21 +1,19 @@
-import resourcesData from "@/data/resources.json"
-import coursesData from "@/data/courses.json"
-import { ResourceCard } from "@/components/ui/resource-card"
-import { notFound } from "next/navigation"
-import type { Course, Resource } from "@/types/course"
+"use client";
 
-export default async function CoursePage({ 
-  params 
-}: { 
-  params: { id: string } 
-}) {
-  const { id } = params;
+import { useParams } from "next/navigation";
+import resourcesData from "@/data/resources.json";
+import coursesData from "@/data/courses.json";
+import { ResourceCard } from "@/components/ui/resource-card";
+import type { Course, Resource } from "@/types/course";
+
+export default function CoursePage() {
+  const { id } = useParams();
 
   const course = coursesData.courses.find((course: Course) => course.id === id);
   const resources = resourcesData[id as keyof typeof resourcesData];
 
   if (!course || !resources) {
-    notFound()
+    return <div className="text-white text-center mt-20">Course Not Found</div>;
   }
 
   return (
@@ -32,5 +30,5 @@ export default async function CoursePage({
         </div>
       </div>
     </div>
-  )
+  );
 }
