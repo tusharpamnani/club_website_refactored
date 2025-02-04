@@ -2,6 +2,16 @@ import { Instagram } from 'lucide-react'
 import { Linkedin } from 'lucide-react'
 import type { SocialLinks } from "../../types/team"
 
+/**
+ * SocialLinks Component
+ * 
+ * This component renders social media icons (LinkedIn and Instagram) with clickable links.
+ * It checks if the provided `socials` prop contains LinkedIn and Instagram URLs,
+ * and displays the corresponding icons with hover effects.
+ * 
+ * Refer to 'src/components/about/team-card.tsx' for more context on how this component is used.
+ */
+
 interface SocialLinksProps {
   socials?: SocialLinks;
 }

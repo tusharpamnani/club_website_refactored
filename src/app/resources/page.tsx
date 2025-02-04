@@ -1,6 +1,13 @@
 import coursesData from "@/data/courses.json"
-import { CourseCard } from "@/components/ui/course-card"
+import { CourseCard } from "@/components/Resources/course-card"
 import type { Course } from "@/types/course"
+
+/**
+   * This page displays all the course cards for different domains
+   * such as "MERN Stack", "Blockchain", and others. 
+   * The data for these courses is imported from the courses.json file, and
+   * each course is rendered using the CourseCard component.
+*/
 
 export default function ResourcesPage() {
   return (

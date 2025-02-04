@@ -3,8 +3,18 @@
 import { useParams } from "next/navigation";
 import resourcesData from "@/data/resources.json";
 import coursesData from "@/data/courses.json";
-import { ResourceCard } from "@/components/ui/resource-card";
+import { ResourceCard } from "@/components/Resources/resource-card";
 import type { Course, Resource } from "@/types/course";
+
+
+/**
+ * This page displays the details of a specific course along with
+ * its related resources. It uses the course ID from the URL parameters
+ * to fetch the corresponding course information and resources
+ * from the courses.json and resources.json files.
+ * 
+ * If the course or resources are not found, it shows a "Course Not Found" message.
+ */
 
 export default function CoursePage() {
   const { id } = useParams();

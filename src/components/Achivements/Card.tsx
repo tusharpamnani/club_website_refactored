@@ -1,6 +1,23 @@
 import * as React from "react"
 import { cn } from "../../app/lib/utils"
 
+/**
+ * Card Component Set
+ * 
+ * This file defines reusable card components for structuring UI elements.
+ * Each subcomponent (CardHeader, CardTitle, CardDescription, CardContent, CardFooter)
+ * helps in organizing content with consistent styling.
+ * 
+ * - `Card`: The main container with border, background, and shadow.
+ * - `CardHeader`: Holds the header section, usually for titles or actions.
+ * - `CardTitle`: Displays prominent headings inside the card.
+ * - `CardDescription`: Provides descriptive text below titles.
+ * - `CardContent`: Holds the main content of the card.
+ * - `CardFooter`: Reserved for actions like buttons or links.
+ * 
+ * Refer `src/app/achivements/page.tsx` for more context on how this component is utilized.
+ */
+
 const Card = React.forwardRef<
   HTMLDivElement,
   React.HTMLAttributes<HTMLDivElement>

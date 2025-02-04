@@ -2,7 +2,7 @@
 
 import { useState } from "react";
 import { Trophy, Award, ChevronRight } from "lucide-react";
-import { Card, CardContent } from "../../components/ui/Card";
+import { Card, CardContent } from "../../components/Achivements/Card";
 import achieversData from '../../data/AchievementData.json'
 
 export default function Achievements() {
