@@ -6,7 +6,6 @@
 
 // TODO: <br/>
 1. Achievements page
-2. Events page 
-3. Resources page
-4. Push images to cloud
-5. Update Jsons
+2. Resources page
+3. Push images to cloud
+4. Update Jsons
