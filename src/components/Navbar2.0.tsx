@@ -44,8 +44,8 @@ const getIcon = (IconComponent: React.ElementType, className?: string) => {
 }
 
 const Navbar: React.FC = () => {
-  const [navbarActive, setNavbarActive] = useState<boolean>(false)
   const [isMobile, setIsMobile] = useState<boolean>(false)
+  const [navbarActive, setNavbarActive] = useState<boolean>(false)
   const [showNavbar, setShowNavbar] = useState<boolean>(false)
   const [showIntroTooltip, setShowIntroTooltip] = useState<boolean>(false)
 
@@ -88,13 +88,18 @@ const Navbar: React.FC = () => {
     return () => document.removeEventListener("mousedown", handleClickOutside)
   }, [])
 
+  const ToggleNavbar = () => {
+    setNavbarActive(!navbarActive);
+    setShowIntroTooltip(false);
+  }
+
   return (
     <div
       ref={navbarRef} // Add ref to the navbar div
       className={`fixed bottom-[300px] right-[570px] cursor-pointer z-[9999] ${
         showNavbar ? "opacity-100 translate-y-0" : "opacity-0 translate-y-5"
       } transition-all duration-700`}
-      onClick={() => setNavbarActive(!navbarActive)}
+      onClick={() => ToggleNavbar()}
     >
       <nav className={`relative flex items-center justify-center ${navbarActive ? "active" : ""}`}>
         <button
@@ -139,7 +144,7 @@ const Navbar: React.FC = () => {
             return (
               <li
                 key={index}
-                className={`absolute left-[500px] top-[250px] flex h-[40px] w-[40px] list-none items-center justify-center rounded-full bg-[#FFFFF0] transition-all duration-500 ${
+                className={`group absolute left-[500px] top-[250px] flex h-[40px] w-[40px] list-none items-center justify-center rounded-full bg-[#FFFFF0] transition-all duration-500 ${
                   navbarActive ? "active" : ""
                 }`}
                 style={{
@@ -147,17 +152,19 @@ const Navbar: React.FC = () => {
                   transform: navbarActive
                     ? `translate(${x}px, ${y}px)`
                     : "rotate(270deg) translateX(30px) translateY(-15px)",
-                }}
+                  }}
               >
-                <Link href={item.link} className="group relative flex items-center justify-center">
+                  <Link href={item.link}>
+                <span className=" relative flex items-center justify-center">
                   {getIcon(item.icon)}
-                  <span
+                  {navbarActive && <span
                     className="invisible absolute min-w-[80px] rounded-md bg-[#555] p-[5px] text-center text-white opacity-0 transition-opacity duration-300 group-hover:visible group-hover:opacity-100"
                     style={item.tooltipStyle}
                   >
                     {item.label}
-                  </span>
-                </Link>
+                  </span>}
+                </span>
+              </Link>
               </li>
             )
           })}

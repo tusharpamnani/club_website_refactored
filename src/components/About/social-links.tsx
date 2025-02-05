@@ -1,5 +1,5 @@
-import { Instagram } from 'lucide-react'
-import { Linkedin } from 'lucide-react'
+import { SlSocialInstagram } from "react-icons/sl";
+import { LuLinkedin } from "react-icons/lu";
 import type { SocialLinks } from "../../types/team"
 
 /**
@@ -27,7 +27,7 @@ export default function SocialLinks({ socials }: SocialLinksProps) {
           className="text-gray-400 hover:text-blue-500 transition-colors"
           aria-label="LinkedIn Profile"
         >
-          <Linkedin className="w-5 h-5" />
+          <LuLinkedin className="w-5 h-5" />
         </a>
       )}
       {socials?.instagram && (
@@ -38,7 +38,7 @@ export default function SocialLinks({ socials }: SocialLinksProps) {
           className="text-gray-400 hover:text-pink-500 transition-colors"
           aria-label="Instagram Profile"
         >
-          <Instagram className="w-5 h-5" />
+          <SlSocialInstagram className="w-5 h-5" />
         </a>
       )}
     </div>
