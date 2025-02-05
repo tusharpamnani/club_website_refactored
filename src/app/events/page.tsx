@@ -138,8 +138,10 @@ export default function Page() {
 
               {/* Event Card */}
               <motion.div
-                className={`w-[calc(50%-60px)] rounded-xl overflow-hidden`}
-                whileHover={{ scale: 1.02 }}
+                className={`w-[calc(50%-60px)] rounded-xl overflow-hidden `}
+                whileHover={{ scale: 1.02 ,
+                  boxShadow: "0px 0px 15px 5px rgba(3,226,255,0.5)",
+                }}
                 transition={{ duration: 0.3 }}
               >
                 <div className="relative aspect-[4/3] w-full">
