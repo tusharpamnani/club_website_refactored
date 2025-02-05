@@ -1,5 +1,5 @@
 import { render, screen } from "@testing-library/react";
-import Achievements from "../app/achivements/page";
+import Achievements from "../app/achievements/page";
 
 // Mocking external components for isolated testing
 jest.mock("@/components/ui/Card", () => ({
