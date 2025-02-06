@@ -6,6 +6,6 @@
 
 // TODO: <br/>
 1. Achievements page
-2. Resources page
+2. Resources page --(Tushar) ✅
 3. Push images to cloud
 4. Update Jsons
